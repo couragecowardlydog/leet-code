@@ -1,7 +1,8 @@
 package com.leetcode.leetcoding30;
 
 public class SingleNumber {
-
+    // XOR Gate, worked 
+    // Hehe, it just came out of nowhere and striked
     public static int singleNumber(int[] nums) {
         int singleNumber = 0;
         for (int i = 0; i < nums.length ; i++)
