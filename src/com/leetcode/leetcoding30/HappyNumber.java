@@ -19,8 +19,7 @@ public class HappyNumber {
 
     public static boolean isHappy(int n) {
 
-        System.out.println(n);
-        if (n < 10 && (n == 1 || n == 7))
+        if (n <= 10 && (n == 1 || n == 7 || n==10))
             return true;
         else if (n < 10)
             return false;
@@ -34,7 +33,5 @@ public class HappyNumber {
         return isHappy(sum);
     }
 
-    public static void main(String[] args) {
-        System.out.println(isHappy(13));
-    }
+
 }

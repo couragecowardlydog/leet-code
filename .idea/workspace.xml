@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4021bf8d-191f-47ac-9d2c-44bec8ca0dab" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/leetcode/leetcoding30/HappyNumber.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/leetcode/leetcoding30/HappyNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/leetcode/leetcoding30/HappyNumber.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +74,7 @@
       <updated>1585802268107</updated>
       <workItem from="1585802269352" duration="780000" />
       <workItem from="1585909592817" duration="3334000" />
-      <workItem from="1585936778548" duration="473000" />
+      <workItem from="1585936778548" duration="619000" />
     </task>
     <servers />
   </component>
