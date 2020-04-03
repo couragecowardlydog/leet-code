@@ -15,6 +15,7 @@ package com.leetcode.leetcoding30;
 public class MaximumSubarray {
 
 
+    // Kandane's Algorithm
     public int maxSubArray(int[] nums) {
 
         int max_so_far = Integer.MIN_VALUE;
@@ -24,7 +25,6 @@ public class MaximumSubarray {
             max_ending_here = Math.max(nums[i], max_ending_here + nums[i]);
             if (max_ending_here > max_so_far)
                 max_so_far = max_ending_here;
-
         }
 
         return max_so_far;
