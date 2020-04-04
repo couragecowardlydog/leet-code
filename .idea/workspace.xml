@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4021bf8d-191f-47ac-9d2c-44bec8ca0dab" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/leetcode/math/ReverseInteger.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/leetcode/leetcoding30/HappyNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/leetcode/leetcoding30/HappyNumber.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,6 +14,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin Class" />
+        <option value="ColdFusion File" />
         <option value="Class" />
       </list>
     </option>
@@ -31,6 +32,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultCfmlFileTemplate" value="ColdFusion File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -40,9 +42,16 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
   </component>
-  <component name="RunManager" selected="Application.HappyNumber">
+  <component name="RunManager" selected="Application.ReverseInteger">
     <configuration name="HappyNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.leetcode.leetcoding30.HappyNumber" />
+      <module name="leet-code" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReverseInteger" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.math.ReverseInteger" />
       <module name="leet-code" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -57,6 +66,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReverseInteger" />
         <item itemvalue="Application.HappyNumber" />
         <item itemvalue="Application.SingleNumber" />
       </list>
@@ -74,7 +84,7 @@
       <updated>1585802268107</updated>
       <workItem from="1585802269352" duration="780000" />
       <workItem from="1585909592817" duration="3334000" />
-      <workItem from="1585936778548" duration="619000" />
+      <workItem from="1585936778548" duration="2105000" />
     </task>
     <servers />
   </component>
@@ -82,22 +92,22 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1398" height="213" key="GridCell.Tab.0.bottom" timestamp="1585937345333">
+    <state width="1398" height="213" key="GridCell.Tab.0.bottom" timestamp="1585976928255">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
-    <state width="1398" height="213" key="GridCell.Tab.0.bottom/0.23.1440.826@0.23.1440.826" timestamp="1585937345333" />
-    <state width="1398" height="213" key="GridCell.Tab.0.center" timestamp="1585937345332">
+    <state width="1398" height="213" key="GridCell.Tab.0.bottom/0.23.1440.826@0.23.1440.826" timestamp="1585976928255" />
+    <state width="1398" height="213" key="GridCell.Tab.0.center" timestamp="1585976928254">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
-    <state width="1398" height="213" key="GridCell.Tab.0.center/0.23.1440.826@0.23.1440.826" timestamp="1585937345332" />
-    <state width="1398" height="213" key="GridCell.Tab.0.left" timestamp="1585937345332">
+    <state width="1398" height="213" key="GridCell.Tab.0.center/0.23.1440.826@0.23.1440.826" timestamp="1585976928254" />
+    <state width="1398" height="213" key="GridCell.Tab.0.left" timestamp="1585976928254">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
-    <state width="1398" height="213" key="GridCell.Tab.0.left/0.23.1440.826@0.23.1440.826" timestamp="1585937345332" />
-    <state width="1398" height="213" key="GridCell.Tab.0.right" timestamp="1585937345332">
+    <state width="1398" height="213" key="GridCell.Tab.0.left/0.23.1440.826@0.23.1440.826" timestamp="1585976928254" />
+    <state width="1398" height="213" key="GridCell.Tab.0.right" timestamp="1585976928255">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
-    <state width="1398" height="213" key="GridCell.Tab.0.right/0.23.1440.826@0.23.1440.826" timestamp="1585937345332" />
+    <state width="1398" height="213" key="GridCell.Tab.0.right/0.23.1440.826@0.23.1440.826" timestamp="1585976928255" />
     <state x="221" y="75" key="SettingsEditor" timestamp="1585802275173">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
