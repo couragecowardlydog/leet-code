@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4021bf8d-191f-47ac-9d2c-44bec8ca0dab" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/leetcode/leetcoding30/MoveZeroes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/leetcode/leetcoding30/BuyandSellStock.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,7 +42,14 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
   </component>
-  <component name="RunManager" selected="Application.MoveZeroes">
+  <component name="RunManager" selected="Application.BuyandSellStock">
+    <configuration name="BuyandSellStock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.leetcoding30.BuyandSellStock" />
+      <module name="leet-code" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="HappyNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.leetcode.leetcoding30.HappyNumber" />
       <module name="leet-code" />
@@ -73,6 +80,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BuyandSellStock" />
         <item itemvalue="Application.MoveZeroes" />
         <item itemvalue="Application.ReverseInteger" />
         <item itemvalue="Application.HappyNumber" />
@@ -93,7 +101,8 @@
       <workItem from="1585802269352" duration="780000" />
       <workItem from="1585909592817" duration="3334000" />
       <workItem from="1585936778548" duration="2780000" />
-      <workItem from="1585982139394" duration="5858000" />
+      <workItem from="1585982139394" duration="6508000" />
+      <workItem from="1586073303304" duration="7642000" />
     </task>
     <servers />
   </component>
@@ -101,49 +110,57 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1398" height="213" key="GridCell.Tab.0.bottom" timestamp="1586006854494">
+    <state x="460" y="144" key="#com.intellij.ide.util.MemberChooser" timestamp="1586076960017">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
-    <state width="1398" height="213" key="GridCell.Tab.0.bottom/0.23.1440.826@0.23.1440.826" timestamp="1586006854494" />
-    <state width="1398" height="213" key="GridCell.Tab.0.center" timestamp="1586006854493">
+    <state x="460" y="144" key="#com.intellij.ide.util.MemberChooser/0.23.1440.826@0.23.1440.826" timestamp="1586076960017" />
+    <state width="1398" height="204" key="GridCell.Tab.0.bottom" timestamp="1586084257515">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
-    <state width="1398" height="213" key="GridCell.Tab.0.center/0.23.1440.826@0.23.1440.826" timestamp="1586006854493" />
-    <state width="1398" height="213" key="GridCell.Tab.0.left" timestamp="1586006854493">
+    <state width="1398" height="204" key="GridCell.Tab.0.bottom/0.23.1440.826@0.23.1440.826" timestamp="1586084257515" />
+    <state width="1398" height="204" key="GridCell.Tab.0.center" timestamp="1586084257514">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
-    <state width="1398" height="213" key="GridCell.Tab.0.left/0.23.1440.826@0.23.1440.826" timestamp="1586006854493" />
-    <state width="1398" height="213" key="GridCell.Tab.0.right" timestamp="1586006854494">
+    <state width="1398" height="204" key="GridCell.Tab.0.center/0.23.1440.826@0.23.1440.826" timestamp="1586084257514" />
+    <state width="1398" height="204" key="GridCell.Tab.0.left" timestamp="1586084257514">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
-    <state width="1398" height="213" key="GridCell.Tab.0.right/0.23.1440.826@0.23.1440.826" timestamp="1586006854494" />
-    <state width="1398" height="265" key="GridCell.Tab.1.bottom" timestamp="1586002514143">
+    <state width="1398" height="204" key="GridCell.Tab.0.left/0.23.1440.826@0.23.1440.826" timestamp="1586084257514" />
+    <state width="1398" height="204" key="GridCell.Tab.0.right" timestamp="1586084257515">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
-    <state width="1398" height="265" key="GridCell.Tab.1.bottom/0.23.1440.826@0.23.1440.826" timestamp="1586002514143" />
-    <state width="1398" height="265" key="GridCell.Tab.1.center" timestamp="1586002514142">
+    <state width="1398" height="204" key="GridCell.Tab.0.right/0.23.1440.826@0.23.1440.826" timestamp="1586084257515" />
+    <state width="1398" height="265" key="GridCell.Tab.1.bottom" timestamp="1586007989973">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
-    <state width="1398" height="265" key="GridCell.Tab.1.center/0.23.1440.826@0.23.1440.826" timestamp="1586002514142" />
-    <state width="1398" height="265" key="GridCell.Tab.1.left" timestamp="1586002514142">
+    <state width="1398" height="265" key="GridCell.Tab.1.bottom/0.23.1440.826@0.23.1440.826" timestamp="1586007989973" />
+    <state width="1398" height="265" key="GridCell.Tab.1.center" timestamp="1586007989972">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
-    <state width="1398" height="265" key="GridCell.Tab.1.left/0.23.1440.826@0.23.1440.826" timestamp="1586002514142" />
-    <state width="1398" height="265" key="GridCell.Tab.1.right" timestamp="1586002514142">
+    <state width="1398" height="265" key="GridCell.Tab.1.center/0.23.1440.826@0.23.1440.826" timestamp="1586007989972" />
+    <state width="1398" height="265" key="GridCell.Tab.1.left" timestamp="1586007989972">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
-    <state width="1398" height="265" key="GridCell.Tab.1.right/0.23.1440.826@0.23.1440.826" timestamp="1586002514142" />
+    <state width="1398" height="265" key="GridCell.Tab.1.left/0.23.1440.826@0.23.1440.826" timestamp="1586007989972" />
+    <state width="1398" height="265" key="GridCell.Tab.1.right" timestamp="1586007989972">
+      <screen x="0" y="23" width="1440" height="826" />
+    </state>
+    <state width="1398" height="265" key="GridCell.Tab.1.right/0.23.1440.826@0.23.1440.826" timestamp="1586007989972" />
     <state x="221" y="75" key="SettingsEditor" timestamp="1585802275173">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
     <state x="221" y="75" key="SettingsEditor/0.23.1440.826@0.23.1440.826" timestamp="1585802275173" />
-    <state x="397" y="268" key="com.intellij.ide.util.TipDialog" timestamp="1585909592846">
+    <state x="397" y="268" key="com.intellij.ide.util.TipDialog" timestamp="1586073343727">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
-    <state x="397" y="268" key="com.intellij.ide.util.TipDialog/0.23.1440.826@0.23.1440.826" timestamp="1585909592846" />
+    <state x="397" y="268" key="com.intellij.ide.util.TipDialog/0.23.1440.826@0.23.1440.826" timestamp="1586073343727" />
     <state x="503" y="360" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1585977272141">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
     <state x="503" y="360" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.826@0.23.1440.826" timestamp="1585977272141" />
+    <state x="385" y="173" width="670" height="676" key="search.everywhere.popup" timestamp="1586077203579">
+      <screen x="0" y="23" width="1440" height="826" />
+    </state>
+    <state x="385" y="173" width="670" height="676" key="search.everywhere.popup/0.23.1440.826@0.23.1440.826" timestamp="1586077203579" />
   </component>
 </project>
