@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="4021bf8d-191f-47ac-9d2c-44bec8ca0dab" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/leetcode/leetcoding30/BuyandSellStock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/leetcode/leetcoding30/BuyandSellStock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/leetcode/leetcoding30/GroupAnagrams.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/leetcode/leetcoding30/GroupAnagrams.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,9 +45,16 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
   </component>
-  <component name="RunManager" selected="Application.BuyandSellStock">
+  <component name="RunManager" selected="Application.GroupAnagrams">
     <configuration name="BuyandSellStock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.leetcode.leetcoding30.BuyandSellStock" />
+      <module name="leet-code" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GroupAnagrams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.leetcoding30.GroupAnagrams" />
       <module name="leet-code" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -74,20 +81,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SingleNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.leetcoding30.SingleNumber" />
-      <module name="leet-code" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GroupAnagrams" />
         <item itemvalue="Application.BuyandSellStock" />
         <item itemvalue="Application.MoveZeroes" />
         <item itemvalue="Application.ReverseInteger" />
         <item itemvalue="Application.HappyNumber" />
-        <item itemvalue="Application.SingleNumber" />
       </list>
     </recent_temporary>
   </component>
@@ -110,7 +110,7 @@
       <workItem from="1586163683982" duration="12000" />
       <workItem from="1586174641936" duration="942000" />
       <workItem from="1586176656533" duration="12000" />
-      <workItem from="1586184827358" duration="269000" />
+      <workItem from="1586184827358" duration="1089000" />
     </task>
     <servers />
   </component>
