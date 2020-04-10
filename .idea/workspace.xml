@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4021bf8d-191f-47ac-9d2c-44bec8ca0dab" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/leetcode/leetcoding30/MiddeoftheLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/leetcode/leetcoding30/BackspaceString.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,7 +45,14 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
   </component>
-  <component name="RunManager" selected="Application.CountingElements">
+  <component name="RunManager" selected="Application.BackspaceString">
+    <configuration name="BackspaceString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.leetcoding30.BackspaceString" />
+      <module name="leet-code" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BuyandSellStock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.leetcode.leetcoding30.BuyandSellStock" />
       <module name="leet-code" />
@@ -74,20 +81,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseInteger" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.math.ReverseInteger" />
-      <module name="leet-code" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BackspaceString" />
         <item itemvalue="Application.CountingElements" />
         <item itemvalue="Application.GroupAnagrams" />
         <item itemvalue="Application.BuyandSellStock" />
         <item itemvalue="Application.MoveZeroes" />
-        <item itemvalue="Application.ReverseInteger" />
       </list>
     </recent_temporary>
   </component>
@@ -112,7 +112,9 @@
       <workItem from="1586176656533" duration="12000" />
       <workItem from="1586184827358" duration="1151000" />
       <workItem from="1586186692529" duration="4000" />
-      <workItem from="1586340715761" duration="1312000" />
+      <workItem from="1586340715761" duration="1507000" />
+      <workItem from="1586432470856" duration="7162000" />
+      <workItem from="1586454487013" duration="4287000" />
     </task>
     <servers />
   </component>
@@ -128,46 +130,46 @@
       <screen x="0" y="23" width="1440" height="826" />
     </state>
     <state x="460" y="144" key="#com.intellij.ide.util.MemberChooser/0.23.1440.826@0.23.1440.826" timestamp="1586076960017" />
-    <state width="1398" height="204" key="GridCell.Tab.0.bottom" timestamp="1586186627399">
+    <state width="1398" height="204" key="GridCell.Tab.0.bottom" timestamp="1586527954558">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
-    <state width="1398" height="204" key="GridCell.Tab.0.bottom/0.23.1440.826@0.23.1440.826" timestamp="1586186627399" />
-    <state width="1398" height="204" key="GridCell.Tab.0.center" timestamp="1586186627399">
+    <state width="1398" height="204" key="GridCell.Tab.0.bottom/0.23.1440.826@0.23.1440.826" timestamp="1586527954558" />
+    <state width="1398" height="204" key="GridCell.Tab.0.center" timestamp="1586527954558">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
-    <state width="1398" height="204" key="GridCell.Tab.0.center/0.23.1440.826@0.23.1440.826" timestamp="1586186627399" />
-    <state width="1398" height="204" key="GridCell.Tab.0.left" timestamp="1586186627399">
+    <state width="1398" height="204" key="GridCell.Tab.0.center/0.23.1440.826@0.23.1440.826" timestamp="1586527954558" />
+    <state width="1398" height="204" key="GridCell.Tab.0.left" timestamp="1586527954557">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
-    <state width="1398" height="204" key="GridCell.Tab.0.left/0.23.1440.826@0.23.1440.826" timestamp="1586186627399" />
-    <state width="1398" height="204" key="GridCell.Tab.0.right" timestamp="1586186627399">
+    <state width="1398" height="204" key="GridCell.Tab.0.left/0.23.1440.826@0.23.1440.826" timestamp="1586527954557" />
+    <state width="1398" height="204" key="GridCell.Tab.0.right" timestamp="1586527954558">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
-    <state width="1398" height="204" key="GridCell.Tab.0.right/0.23.1440.826@0.23.1440.826" timestamp="1586186627399" />
-    <state width="1398" height="265" key="GridCell.Tab.1.bottom" timestamp="1586007989973">
+    <state width="1398" height="204" key="GridCell.Tab.0.right/0.23.1440.826@0.23.1440.826" timestamp="1586527954558" />
+    <state width="1398" height="265" key="GridCell.Tab.1.bottom" timestamp="1586456277587">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
-    <state width="1398" height="265" key="GridCell.Tab.1.bottom/0.23.1440.826@0.23.1440.826" timestamp="1586007989973" />
-    <state width="1398" height="265" key="GridCell.Tab.1.center" timestamp="1586007989972">
+    <state width="1398" height="265" key="GridCell.Tab.1.bottom/0.23.1440.826@0.23.1440.826" timestamp="1586456277587" />
+    <state width="1398" height="265" key="GridCell.Tab.1.center" timestamp="1586456277586">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
-    <state width="1398" height="265" key="GridCell.Tab.1.center/0.23.1440.826@0.23.1440.826" timestamp="1586007989972" />
-    <state width="1398" height="265" key="GridCell.Tab.1.left" timestamp="1586007989972">
+    <state width="1398" height="265" key="GridCell.Tab.1.center/0.23.1440.826@0.23.1440.826" timestamp="1586456277586" />
+    <state width="1398" height="265" key="GridCell.Tab.1.left" timestamp="1586456277586">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
-    <state width="1398" height="265" key="GridCell.Tab.1.left/0.23.1440.826@0.23.1440.826" timestamp="1586007989972" />
-    <state width="1398" height="265" key="GridCell.Tab.1.right" timestamp="1586007989972">
+    <state width="1398" height="265" key="GridCell.Tab.1.left/0.23.1440.826@0.23.1440.826" timestamp="1586456277586" />
+    <state width="1398" height="265" key="GridCell.Tab.1.right" timestamp="1586456277587">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
-    <state width="1398" height="265" key="GridCell.Tab.1.right/0.23.1440.826@0.23.1440.826" timestamp="1586007989972" />
+    <state width="1398" height="265" key="GridCell.Tab.1.right/0.23.1440.826@0.23.1440.826" timestamp="1586456277587" />
     <state x="221" y="75" key="SettingsEditor" timestamp="1585802275173">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
     <state x="221" y="75" key="SettingsEditor/0.23.1440.826@0.23.1440.826" timestamp="1585802275173" />
-    <state x="397" y="268" key="com.intellij.ide.util.TipDialog" timestamp="1586073343727">
+    <state x="397" y="268" key="com.intellij.ide.util.TipDialog" timestamp="1586454488227">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
-    <state x="397" y="268" key="com.intellij.ide.util.TipDialog/0.23.1440.826@0.23.1440.826" timestamp="1586073343727" />
+    <state x="397" y="268" key="com.intellij.ide.util.TipDialog/0.23.1440.826@0.23.1440.826" timestamp="1586454488227" />
     <state x="503" y="360" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1585977272141">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
