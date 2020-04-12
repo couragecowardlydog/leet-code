@@ -1,6 +1,25 @@
 package com.leetcode.leetcoding30;
 
-
+/**
+ * Design a stack that supports push, pop, top, and retrieving the minimum element in constant time.
+ * <p>
+ * push(x) -- Push element x onto stack.
+ * pop() -- Removes the element on top of the stack.
+ * top() -- Get the top element.
+ * getMin() -- Retrieve the minimum element in the stack.
+ * <p>
+ * <p>
+ * Example:
+ * <p>
+ * MinStack minStack = new MinStack();
+ * minStack.push(-2);
+ * minStack.push(0);
+ * minStack.push(-3);
+ * minStack.getMin();   --> Returns -3.
+ * minStack.pop();
+ * minStack.top();      --> Returns 0.
+ * minStack.getMin();   --> Returns -2.
+ */
 public class MinStack {
 
     class StackObject {
@@ -35,7 +54,7 @@ public class MinStack {
     }
 
     public void push(int x) {
-        if(top==-1)
+        if (top == -1)
             minValue = Integer.MAX_VALUE;
         minValue = x < minValue ? x : minValue;
         this.stack[++top] = new StackObject(x, minValue);
@@ -43,8 +62,8 @@ public class MinStack {
 
     public void pop() {
         top--;
-        if(top != -1)
-        this.minValue = stack[top].minValue;
+        if (top != -1)
+            this.minValue = stack[top].minValue;
 
     }
 
@@ -78,8 +97,8 @@ public class MinStack {
         minStack.pop();
         System.out.println(minStack.getMin());*/
 
-    //["MinStack","push","push","getMin","getMin","push","getMin","getMin","top","getMin","pop","push","push","getMin","push","pop","top","getMin","pop"]
-    //[[],[-10],[14],[],[],[-20],[],[],[],[],[],[10],[-7],[],[-7],[],[],[],[]]
+        //["MinStack","push","push","getMin","getMin","push","getMin","getMin","top","getMin","pop","push","push","getMin","push","pop","top","getMin","pop"]
+        //[[],[-10],[14],[],[],[-20],[],[],[],[],[],[10],[-7],[],[-7],[],[],[],[]]
 
 
         minStack.push(-10);
@@ -102,7 +121,6 @@ public class MinStack {
         minStack.pop();
 
         System.out.println();
-
 
 
     }
