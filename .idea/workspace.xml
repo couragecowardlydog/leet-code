@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4021bf8d-191f-47ac-9d2c-44bec8ca0dab" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/leetcode/leetcoding30/DiameterofBinaryTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/leetcode/leetcoding30/MinStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/leetcode/leetcoding30/MinStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/leetcode/leetcoding30/DiameterofBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/leetcode/leetcoding30/DiameterofBinaryTree.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,7 +116,7 @@
       <workItem from="1586432470856" duration="7162000" />
       <workItem from="1586454487013" duration="4650000" />
       <workItem from="1586610756743" duration="5096000" />
-      <workItem from="1586665317114" duration="581000" />
+      <workItem from="1586665317114" duration="1177000" />
     </task>
     <servers />
   </component>
@@ -173,10 +172,10 @@
       <screen x="0" y="23" width="1440" height="826" />
     </state>
     <state x="221" y="75" key="SettingsEditor/0.23.1440.826@0.23.1440.826" timestamp="1585802275173" />
-    <state x="397" y="268" key="com.intellij.ide.util.TipDialog" timestamp="1586665319948">
+    <state x="397" y="268" key="com.intellij.ide.util.TipDialog" timestamp="1586667360798">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
-    <state x="397" y="268" key="com.intellij.ide.util.TipDialog/0.23.1440.826@0.23.1440.826" timestamp="1586665319948" />
+    <state x="397" y="268" key="com.intellij.ide.util.TipDialog/0.23.1440.826@0.23.1440.826" timestamp="1586667360798" />
     <state x="503" y="360" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1585977272141">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
