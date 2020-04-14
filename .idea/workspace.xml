@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4021bf8d-191f-47ac-9d2c-44bec8ca0dab" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/leetcode/leetcoding30/LastStoneWeight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/leetcode/leetcoding30/ContiguousArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,7 +45,7 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
   </component>
-  <component name="RunManager" selected="Application.MinStack">
+  <component name="RunManager" selected="Application.ContiguousArray">
     <configuration name="BackspaceString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.leetcode.leetcoding30.BackspaceString" />
       <module name="leet-code" />
@@ -53,8 +53,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BuyandSellStock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.leetcoding30.BuyandSellStock" />
+    <configuration name="ContiguousArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.leetcoding30.ContiguousArray" />
       <module name="leet-code" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -83,11 +83,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ContiguousArray" />
         <item itemvalue="Application.MinStack" />
         <item itemvalue="Application.BackspaceString" />
         <item itemvalue="Application.CountingElements" />
         <item itemvalue="Application.GroupAnagrams" />
-        <item itemvalue="Application.BuyandSellStock" />
       </list>
     </recent_temporary>
   </component>
@@ -120,7 +120,7 @@
       <workItem from="1586667324402" duration="126000" />
       <workItem from="1586706773819" duration="654000" />
       <workItem from="1586767091416" duration="65000" />
-      <workItem from="1586775127900" duration="687000" />
+      <workItem from="1586775127900" duration="7854000" />
     </task>
     <servers />
   </component>
@@ -140,22 +140,22 @@
       <screen x="0" y="23" width="1440" height="826" />
     </state>
     <state x="408" y="179" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.23.1440.826@0.23.1440.826" timestamp="1586665347925" />
-    <state width="1398" height="265" key="GridCell.Tab.0.bottom" timestamp="1586665282312">
+    <state width="1398" height="204" key="GridCell.Tab.0.bottom" timestamp="1586859587747">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
-    <state width="1398" height="265" key="GridCell.Tab.0.bottom/0.23.1440.826@0.23.1440.826" timestamp="1586665282312" />
-    <state width="1398" height="265" key="GridCell.Tab.0.center" timestamp="1586665282311">
+    <state width="1398" height="204" key="GridCell.Tab.0.bottom/0.23.1440.826@0.23.1440.826" timestamp="1586859587747" />
+    <state width="1398" height="204" key="GridCell.Tab.0.center" timestamp="1586859587746">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
-    <state width="1398" height="265" key="GridCell.Tab.0.center/0.23.1440.826@0.23.1440.826" timestamp="1586665282311" />
-    <state width="1398" height="265" key="GridCell.Tab.0.left" timestamp="1586665282311">
+    <state width="1398" height="204" key="GridCell.Tab.0.center/0.23.1440.826@0.23.1440.826" timestamp="1586859587746" />
+    <state width="1398" height="204" key="GridCell.Tab.0.left" timestamp="1586859587746">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
-    <state width="1398" height="265" key="GridCell.Tab.0.left/0.23.1440.826@0.23.1440.826" timestamp="1586665282311" />
-    <state width="1398" height="265" key="GridCell.Tab.0.right" timestamp="1586665282312">
+    <state width="1398" height="204" key="GridCell.Tab.0.left/0.23.1440.826@0.23.1440.826" timestamp="1586859587746" />
+    <state width="1398" height="204" key="GridCell.Tab.0.right" timestamp="1586859587746">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
-    <state width="1398" height="265" key="GridCell.Tab.0.right/0.23.1440.826@0.23.1440.826" timestamp="1586665282312" />
+    <state width="1398" height="204" key="GridCell.Tab.0.right/0.23.1440.826@0.23.1440.826" timestamp="1586859587746" />
     <state width="1398" height="265" key="GridCell.Tab.1.bottom" timestamp="1586665282313">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
@@ -180,6 +180,10 @@
       <screen x="0" y="23" width="1440" height="826" />
     </state>
     <state x="397" y="268" key="com.intellij.ide.util.TipDialog/0.23.1440.826@0.23.1440.826" timestamp="1586767091794" />
+    <state x="378" y="58" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1586859591934">
+      <screen x="0" y="23" width="1440" height="826" />
+    </state>
+    <state x="378" y="58" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.23.1440.826@0.23.1440.826" timestamp="1586859591934" />
     <state x="503" y="360" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1585977272141">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
