@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4021bf8d-191f-47ac-9d2c-44bec8ca0dab" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/leetcode/leetcoding30/ContiguousArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/leetcode/leetcoding30/PerformStringShifts.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/leetcode/hashtable/TwoSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/leetcode/hashtable/TwoSum.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +46,7 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
   </component>
-  <component name="RunManager" selected="Application.ContiguousArray">
+  <component name="RunManager" selected="Application.PerformStringShifts">
     <configuration name="BackspaceString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.leetcode.leetcoding30.BackspaceString" />
       <module name="leet-code" />
@@ -67,13 +68,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GroupAnagrams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.leetcoding30.GroupAnagrams" />
-      <module name="leet-code" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MinStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.leetcode.leetcoding30.MinStack" />
       <module name="leet-code" />
@@ -81,13 +75,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PerformStringShifts" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.leetcoding30.PerformStringShifts" />
+      <module name="leet-code" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PerformStringShifts" />
         <item itemvalue="Application.ContiguousArray" />
         <item itemvalue="Application.MinStack" />
         <item itemvalue="Application.BackspaceString" />
         <item itemvalue="Application.CountingElements" />
-        <item itemvalue="Application.GroupAnagrams" />
       </list>
     </recent_temporary>
   </component>
@@ -120,7 +121,10 @@
       <workItem from="1586667324402" duration="126000" />
       <workItem from="1586706773819" duration="654000" />
       <workItem from="1586767091416" duration="65000" />
-      <workItem from="1586775127900" duration="7854000" />
+      <workItem from="1586775127900" duration="8359000" />
+      <workItem from="1586929516207" duration="1417000" />
+      <workItem from="1586945966952" duration="231000" />
+      <workItem from="1586947232969" duration="2557000" />
     </task>
     <servers />
   </component>
@@ -140,22 +144,26 @@
       <screen x="0" y="23" width="1440" height="826" />
     </state>
     <state x="408" y="179" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.23.1440.826@0.23.1440.826" timestamp="1586665347925" />
-    <state width="1398" height="204" key="GridCell.Tab.0.bottom" timestamp="1586859587747">
-      <screen x="0" y="23" width="1440" height="826" />
+    <state width="1398" height="133" key="GridCell.Tab.0.bottom" timestamp="1586970377318">
+      <screen x="0" y="23" width="1440" height="824" />
     </state>
-    <state width="1398" height="204" key="GridCell.Tab.0.bottom/0.23.1440.826@0.23.1440.826" timestamp="1586859587747" />
-    <state width="1398" height="204" key="GridCell.Tab.0.center" timestamp="1586859587746">
-      <screen x="0" y="23" width="1440" height="826" />
+    <state width="1398" height="133" key="GridCell.Tab.0.bottom/0.23.1440.824@0.23.1440.824" timestamp="1586970377318" />
+    <state width="1398" height="204" key="GridCell.Tab.0.bottom/0.23.1440.826@0.23.1440.826" timestamp="1586860790222" />
+    <state width="1398" height="133" key="GridCell.Tab.0.center" timestamp="1586970377318">
+      <screen x="0" y="23" width="1440" height="824" />
     </state>
-    <state width="1398" height="204" key="GridCell.Tab.0.center/0.23.1440.826@0.23.1440.826" timestamp="1586859587746" />
-    <state width="1398" height="204" key="GridCell.Tab.0.left" timestamp="1586859587746">
-      <screen x="0" y="23" width="1440" height="826" />
+    <state width="1398" height="133" key="GridCell.Tab.0.center/0.23.1440.824@0.23.1440.824" timestamp="1586970377318" />
+    <state width="1398" height="204" key="GridCell.Tab.0.center/0.23.1440.826@0.23.1440.826" timestamp="1586860790222" />
+    <state width="1398" height="133" key="GridCell.Tab.0.left" timestamp="1586970377317">
+      <screen x="0" y="23" width="1440" height="824" />
     </state>
-    <state width="1398" height="204" key="GridCell.Tab.0.left/0.23.1440.826@0.23.1440.826" timestamp="1586859587746" />
-    <state width="1398" height="204" key="GridCell.Tab.0.right" timestamp="1586859587746">
-      <screen x="0" y="23" width="1440" height="826" />
+    <state width="1398" height="133" key="GridCell.Tab.0.left/0.23.1440.824@0.23.1440.824" timestamp="1586970377317" />
+    <state width="1398" height="204" key="GridCell.Tab.0.left/0.23.1440.826@0.23.1440.826" timestamp="1586860790221" />
+    <state width="1398" height="133" key="GridCell.Tab.0.right" timestamp="1586970377318">
+      <screen x="0" y="23" width="1440" height="824" />
     </state>
-    <state width="1398" height="204" key="GridCell.Tab.0.right/0.23.1440.826@0.23.1440.826" timestamp="1586859587746" />
+    <state width="1398" height="133" key="GridCell.Tab.0.right/0.23.1440.824@0.23.1440.824" timestamp="1586970377318" />
+    <state width="1398" height="204" key="GridCell.Tab.0.right/0.23.1440.826@0.23.1440.826" timestamp="1586860790222" />
     <state width="1398" height="265" key="GridCell.Tab.1.bottom" timestamp="1586665282313">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
@@ -176,9 +184,10 @@
       <screen x="0" y="23" width="1440" height="826" />
     </state>
     <state x="221" y="75" key="SettingsEditor/0.23.1440.826@0.23.1440.826" timestamp="1585802275173" />
-    <state x="397" y="268" key="com.intellij.ide.util.TipDialog" timestamp="1586767091794">
-      <screen x="0" y="23" width="1440" height="826" />
+    <state x="397" y="267" key="com.intellij.ide.util.TipDialog" timestamp="1586929515933">
+      <screen x="0" y="23" width="1440" height="824" />
     </state>
+    <state x="397" y="267" key="com.intellij.ide.util.TipDialog/0.23.1440.824@0.23.1440.824" timestamp="1586929515933" />
     <state x="397" y="268" key="com.intellij.ide.util.TipDialog/0.23.1440.826@0.23.1440.826" timestamp="1586767091794" />
     <state x="378" y="58" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1586859591934">
       <screen x="0" y="23" width="1440" height="826" />
