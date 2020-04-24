@@ -1,5 +1,7 @@
 package com.leetcode.leetcoding30;
 
+import java.util.Arrays;
+
 /**
  * Given a m x n grid filled with non-negative numbers, find a path from top left to bottom right which minimizes the sum of all numbers along its path.
  * <p>
@@ -18,9 +20,6 @@ package com.leetcode.leetcoding30;
  */
 public class MinimumPathSum {
 
-    public static int minPathSum(int[][] grid) {
-        return minSum(grid, 0, 0);
-    }
 
     /**
      * :( Time Limit started execeeding from test case 21
@@ -34,13 +33,44 @@ public class MinimumPathSum {
     }
 
 
+    /**
+     * DP Iterative
+     * @return
+     */
+    public static int minPathSum(int[][] grid) {
+
+        int rows = grid.length;
+        int cols = grid[0].length;
+
+        int[][] cost = new int[rows][cols];
+        for (int i = 0; i < rows; i++) {
+            for (int j = 0; j < cols; j++) {
+                /**
+                 * Cost of reaching (i,j) is (i-1,j) or (i,j-1)
+                 */
+                if ((i - 1 >= 0) && (j - 1 >= 0))
+                    cost[i][j] = Math.min(cost[i - 1][j], cost[i][j - 1]) + grid[i][j];
+                else if ((i - 1 >= 0) && (j - 1 < 0))
+                    cost[i][j] = cost[i - 1][j] + grid[i][j];
+                else if ((i - 1 < 0) && (j - 1 >= 0))
+                    cost[i][j] = cost[i][j - 1] + grid[i][j];
+                else
+                    cost[i][j] = grid[i][j];
+
+            }
+        }
+        return cost[rows - 1][cols - 1];
+    }
+
+
     public static void main(String[] args) {
         int[][] mxn = {
-                {1, 3, 19},
+                {1, 3, 1},
                 {1, 5, 1},
                 {14, 2, 1}
         };
 
-        System.out.println(minPathSum(mxn));
+        minPathSum(mxn);
+
     }
 }
