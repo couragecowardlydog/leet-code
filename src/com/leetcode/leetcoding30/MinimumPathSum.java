@@ -22,7 +22,7 @@ public class MinimumPathSum {
 
 
     /**
-     * :( Time Limit started execeeding from test case 21
+     * :( Time Limit started execeeeeeeeeeeeding from test case 21
      */
     public static int minSum(int[][] grid, int i, int j) {
         if (i > grid.length - 1 || j > grid[0].length - 1)
