@@ -39,6 +39,7 @@ public class SingleNumber {
     public static void main(String[] args) {
         int[] TEST_CASE_01 = new int[]{2, 2, 1};
         int[] TEST_CASE_02 = new int[]{4,1,2,1,2};
+        TEST_CASE_01[]
         System.out.println(singleNumber(TEST_CASE_01));
 
     }
