@@ -1,4 +1,4 @@
-package com.leetcode.me;
+package com.leetcode.math;
 
 /**
  * @author vivekanandan.sakthiv on Apr 2021
