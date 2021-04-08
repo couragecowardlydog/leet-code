@@ -53,5 +53,5 @@ public class BuyandSellStock {
         return x;
     }
 
-    
+
 }

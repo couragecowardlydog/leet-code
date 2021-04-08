@@ -1,7 +1,8 @@
-out/
+out/*
 .idea/workspace.xml
 .idea/
 .idea/*
 .idea/workspace.xml
 *.iml
 *.xml
+leet-code.iml
