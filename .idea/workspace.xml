@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3357f1b0-1d23-44e4-8ae1-dc7a05538750" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/leetcode/dp/CountSortedVowelStrings.java" afterDir="false" />
+    <list default="true" id="3357f1b0-1d23-44e4-8ae1-dc7a05538750" name="Default Changelist" comment="feat: Data Structure 1">
+      <change afterPath="$PROJECT_DIR$/src/com/leetcode/datastructures/ContainsDuplicate.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -28,13 +28,25 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager" selected="Application.CountSortedVowelStrings">
+  <component name="RunManager" selected="Application.ContainsDuplicate">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ClimbingStairs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.leetcode.dp.ClimbingStairs" />
       <module name="leet-code" />
@@ -48,12 +60,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CountSortedVowelStrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.dp.CountSortedVowelStrings" />
+    <configuration name="ContainsDuplicate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.datastructures.ContainsDuplicate" />
       <module name="leet-code" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.leetcode.dp.*" />
+          <option name="PATTERN" value="com.leetcode.datastructures.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -61,8 +73,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Fibo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.dp.Fibo" />
+    <configuration name="CountSortedVowelStrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.dp.CountSortedVowelStrings" />
       <module name="leet-code" />
       <extension name="coverage">
         <pattern>
@@ -100,24 +112,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ContainsDuplicate" />
         <item itemvalue="Application.CountSortedVowelStrings" />
         <item itemvalue="Application.RangeSumQuery" />
         <item itemvalue="Application.ClimbingStairs" />
         <item itemvalue="Application.IsSubsequence" />
-        <item itemvalue="Application.Fibo" />
       </list>
     </recent_temporary>
   </component>
@@ -130,7 +131,8 @@
       <option name="presentableId" value="Default" />
       <updated>1618014653871</updated>
       <workItem from="1618014654986" duration="486000" />
-      <workItem from="1618106377489" duration="13078000" />
+      <workItem from="1618106377489" duration="13573000" />
+      <workItem from="1635410242124" duration="1155000" />
     </task>
     <servers />
   </component>
@@ -148,5 +150,25 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat: Data Structure 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: Data Structure 1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/leetcode/datastructures/ContainsDuplicate.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/leetcode/datastructures/ContainsDuplicate.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
