@@ -20,8 +20,8 @@ public class MergeTwoSortedLists {
             head = addNode(head, l2.val);
             l2 = l2.next;
         }
-        addAllFromList(head, l1);
-        addAllFromList(head, l2);
+        head = addAllFromList(head, l1);
+        head = addAllFromList(head, l2);
         return head;
     }
 

@@ -40,4 +40,17 @@ public class MergeTwoSortedListsTest {
 
     }
 
+    @Test
+    public void testCase184() {
+        // L2
+        ListNode $L2_1 = new ListNode(0);
+
+        ListNode head = code.mergeTwoLists(null, $L2_1);
+        while (null != head) {
+            System.out.println(head.val);
+            head = head.next;
+        }
+
+    }
+
 }
