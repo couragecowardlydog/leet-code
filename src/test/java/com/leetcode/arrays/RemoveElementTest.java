@@ -1,6 +1,6 @@
 package com.leetcode.arrays;
 
-import org.junit.Assert;
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.TestInstance;
 import org.junit.jupiter.params.ParameterizedTest;
@@ -36,7 +36,7 @@ public class RemoveElementTest {
     @ParameterizedTest(name = "#{index} Test with {1}")
     @MethodSource("inputs")
     public void test(int expected, int[] nums, int val) {
-        Assert.assertEquals(expected, code.removeElement(nums, val));
+        Assertions.assertEquals(expected, code.removeElement(nums, val));
     }
 
 }

@@ -34,7 +34,7 @@ package com.leetcode.datastructures;
 public class BestTimetoBuyandSellStock {
 
     public static int maxProfit(int[] prices) {
-        int res[] = new int[prices.length];
+        int[] res = new int[prices.length];
         for (int i = 0; i < prices.length - 1; i++) {
             res[i] = prices[i + 1] - prices[i];
         }

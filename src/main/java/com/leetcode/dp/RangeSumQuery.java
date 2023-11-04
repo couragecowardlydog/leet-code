@@ -1,7 +1,5 @@
 package com.leetcode.dp;
 
-import java.util.Arrays;
-
 /**
  * @author vivekanandan.sakthiv on Apr 2021
  * <p>
@@ -54,7 +52,7 @@ public class RangeSumQuery {
         int[] input;
         int[] sqrtDecompose;
         int sqrt;
-        private int[] sums;
+        private final int[] sums;
 
         public NumArray(int[] input) {
             this.input = input;

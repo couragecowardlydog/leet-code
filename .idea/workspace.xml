@@ -5,15 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="369f1dc2-ac42-4d80-ab0c-491313756363" name="Changes" comment="feat: RemoveDuplicatesfromSortedList">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/datastructures/binarytree/InOrderTraversal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/datastructures/binarytree/TreeNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/leetcode/datastructures/binarytree/InOrderTraversalTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/streak/RemoveDuplicatesFromSortedArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/leetcode/streak/RemoveDuplicatesFromSortedArrayTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leet-code.iml" beforeDir="false" afterPath="$PROJECT_DIR$/leet-code.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/leetcode/codemay/FirstBadVersion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/codemay/FirstBadVersion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/leetcode/leetcoding30/LastStoneWeight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/leetcoding30/LastStoneWeight.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/leetcode/arrays/PlusOneTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/leetcode/arrays/PlusOneTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/leetcode/arrays/RemoveDuplicatesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/leetcode/arrays/RemoveDuplicatesTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/leetcode/arrays/RemoveElementTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/leetcode/arrays/RemoveElementTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/leetcode/arrays/SearchInsertPositionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/leetcode/arrays/SearchInsertPositionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/leetcode/datastructures/binarytree/SameTreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/leetcode/datastructures/binarytree/SameTreeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/leetcode/datastructures/linkedlist/MergeTwoSortedListsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/leetcode/datastructures/linkedlist/MergeTwoSortedListsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/leetcode/slidingwindow/LongestSubstringWithoutRepeatingCharactersTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/leetcode/slidingwindow/LongestSubstringWithoutRepeatingCharactersTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/leetcode/string/ImplementstrStrTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/leetcode/string/ImplementstrStrTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/leetcode/string/LengthofLastWordTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/leetcode/string/LengthofLastWordTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/leetcode/string/LongestCommonPrefixTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/leetcode/string/LongestCommonPrefixTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/leetcode/string/ValidParenthesesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/leetcode/string/ValidParenthesesTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,8 +28,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -39,16 +44,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "/Users/vivekanandan.sakthivelu/Workspace/github/leet-code"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -57,14 +59,27 @@
       <recent name="com.leetcode.slidingwindow" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.leetcode.streak" />
       <recent name="com.leetcode.datastructures.binarytree" />
       <recent name="com.leetcode.datastructures.linkedlist" />
       <recent name="com.leetcode.math" />
       <recent name="com.leetcode.string" />
-      <recent name="com.leetcode.arrays" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.InOrderTraversalTest.testCase2">
+  <component name="RunManager" selected="JUnit.RemoveDuplicatesFromSortedArrayTest.test">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="InOrderTraversalTest.testCase1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leet-code" />
       <extension name="coverage">
@@ -92,6 +107,22 @@
       <option name="PACKAGE_NAME" value="com.leetcode.datastructures.binarytree" />
       <option name="MAIN_CLASS_NAME" value="com.leetcode.datastructures.binarytree.InOrderTraversalTest" />
       <option name="METHOD_NAME" value="testCase2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RemoveDuplicatesFromSortedArrayTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="leet-code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.leetcode.streak.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.leetcode.streak" />
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.streak.RemoveDuplicatesFromSortedArrayTest" />
+      <option name="METHOD_NAME" value="test(int,int[])" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -129,29 +160,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SqrtTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="leet-code" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.leetcode.math.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.leetcode.math" />
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.math.SqrtTest" />
-      <option name="METHOD_NAME" value="test(int,int)" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RemoveDuplicatesFromSortedArrayTest.test" />
         <item itemvalue="JUnit.InOrderTraversalTest.testCase2" />
         <item itemvalue="JUnit.InOrderTraversalTest.testCase1" />
         <item itemvalue="JUnit.RemoveDuplicatesfromSortedListTest.deleteDuplicatesCase2" />
         <item itemvalue="JUnit.RemoveDuplicatesfromSortedListTest.deleteDuplicates" />
-        <item itemvalue="JUnit.SqrtTest.test" />
       </list>
     </recent_temporary>
   </component>
@@ -182,6 +197,9 @@
       <workItem from="1657340655983" duration="2844000" />
       <workItem from="1657547573022" duration="1900000" />
       <workItem from="1657854427048" duration="1018000" />
+      <workItem from="1698913031450" duration="545000" />
+      <workItem from="1699020462079" duration="192000" />
+      <workItem from="1699020657332" duration="30000" />
     </task>
     <task id="LOCAL-00001" summary="Update workspace.xml">
       <created>1655644680683</created>
@@ -319,22 +337,22 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/leetcode/datastructures/linkedlist/MergeTwoSortedListsTest.java</url>
-          <line>47</line>
+          <line>46</line>
           <option name="timeStamp" value="24" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/leetcode/datastructures/linkedlist/MergeTwoSortedListsTest.java</url>
-          <line>48</line>
+          <line>47</line>
           <option name="timeStamp" value="25" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/leetcode/datastructures/linkedlist/MergeTwoSortedListsTest.java</url>
-          <line>50</line>
+          <line>49</line>
           <option name="timeStamp" value="26" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/leetcode/datastructures/linkedlist/MergeTwoSortedListsTest.java</url>
-          <line>49</line>
+          <line>48</line>
           <option name="timeStamp" value="27" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">

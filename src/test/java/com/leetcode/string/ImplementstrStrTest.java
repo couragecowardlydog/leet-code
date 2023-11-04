@@ -1,6 +1,7 @@
 package com.leetcode.string;
 
-import org.junit.Assert;
+
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.TestInstance;
 import org.junit.jupiter.params.ParameterizedTest;
@@ -34,6 +35,6 @@ public class ImplementstrStrTest {
     @ParameterizedTest
     @MethodSource("inputs")
     public void test(int expected, String haystack, String needle) {
-        Assert.assertEquals(expected, code.strStr(haystack, needle));
+        Assertions.assertEquals(expected, code.strStr(haystack, needle));
     }
 }

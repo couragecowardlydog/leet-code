@@ -9,7 +9,7 @@ public class GroupAnagrams {
 
         HashMap<String,ArrayList>H = new HashMap<>();
         for(int i=0;i<strs.length;i++){
-            char x[] = strs[i].toCharArray();
+            char[] x = strs[i].toCharArray();
             Arrays.sort(x);
             String a = new String(x);
             if(H.containsKey(a)){

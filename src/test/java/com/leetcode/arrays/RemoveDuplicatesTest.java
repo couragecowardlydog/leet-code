@@ -1,6 +1,6 @@
 package com.leetcode.arrays;
 
-import org.junit.Assert;
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.TestInstance;
 import org.junit.jupiter.params.ParameterizedTest;
@@ -33,7 +33,7 @@ public class RemoveDuplicatesTest {
     @ParameterizedTest(name = "#{index} - Test with : {1}")
     @MethodSource("inputs")
     public void test(int expected, int[] input) {
-        Assert.assertEquals(expected, code.removeDuplicates(input));
+        Assertions.assertEquals(expected, code.removeDuplicates(input));
     }
 
 }

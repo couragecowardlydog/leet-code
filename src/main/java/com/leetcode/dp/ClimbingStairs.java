@@ -9,7 +9,7 @@ import java.util.Arrays;
 
 public class ClimbingStairs {
 
-    static int dp[];
+    static int[] dp;
 
     public static int climbStairs(int n) {
         dp = new int[n + 3];

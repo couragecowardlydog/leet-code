@@ -1,7 +1,6 @@
 package com.leetcode.slidingwindow;
 
-import com.leetcode.slidingwindow.LongestSubstringWithoutRepeatingCharacters;
-import org.junit.Assert;
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.TestInstance;
 import org.junit.jupiter.params.ParameterizedTest;
@@ -36,7 +35,7 @@ public class LongestSubstringWithoutRepeatingCharactersTest {
     @ParameterizedTest(name = "#{index} - Test with : {1}")
     @MethodSource("inputs")
     public void test(int expected, String input) {
-        Assert.assertEquals(expected, code.lengthOfLongestSubstring(input));
+        Assertions.assertEquals(expected, code.lengthOfLongestSubstring(input));
     }
 
 }

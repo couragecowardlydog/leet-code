@@ -1,6 +1,7 @@
 package com.leetcode.arrays;
 
-import org.junit.Assert;
+
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.TestInstance;
 import org.junit.jupiter.params.ParameterizedTest;
@@ -8,7 +9,6 @@ import org.junit.jupiter.params.provider.MethodSource;
 
 import java.util.stream.Stream;
 
-import static org.junit.jupiter.api.Assertions.*;
 import static org.junit.jupiter.params.provider.Arguments.arguments;
 
 @TestInstance(TestInstance.Lifecycle.PER_CLASS)
@@ -45,6 +45,6 @@ class SearchInsertPositionTest {
     @ParameterizedTest(name = "{index} Input:{1} looking for {2}, expected:{0}")
     @MethodSource("inputs")
     void test(int expected, int[] nums, int target) {
-        Assert.assertEquals(expected, code.searchInsert(nums, target));
+        Assertions.assertEquals(expected, code.searchInsert(nums, target));
     }
 }

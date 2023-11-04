@@ -23,7 +23,7 @@ package com.leetcode.math;
 public class ReverseInteger {
 
     public static int reverse(int x) {
-        boolean isNegative = x > 0 ? false : true;
+        boolean isNegative = x <= 0;
         int reverse = 0;
         x = Math.abs(x);
         int overflowIndicator = (Integer.MAX_VALUE / 10);

@@ -1,7 +1,7 @@
 package com.leetcode.string;
 
-import org.junit.Assert;
-import org.junit.jupiter.api.BeforeAll;
+
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.TestInstance;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
@@ -30,7 +30,7 @@ public class ValidParenthesesTest {
     @MethodSource("inputs")
     public void test(boolean expected, String input) {
         ValidParentheses code = new ValidParentheses();
-        Assert.assertEquals(expected, code.isValid(input));
+        Assertions.assertEquals(expected, code.isValid(input));
     }
 
 }
