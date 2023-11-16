@@ -1,24 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="ANALYZE_INJECTED_CODE" value="false" />
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="369f1dc2-ac42-4d80-ab0c-491313756363" name="Changes" comment="feat: RemoveDuplicatesfromSortedList">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/streak/RemoveDuplicatesFromSortedArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/leetcode/streak/RemoveDuplicatesFromSortedArrayTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/dp/CountingBits.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/dp/PascalTriangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/leetcode/dp/CountingBitsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/leetcode/dp/PascalTriangleTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/leetcode/arrays/PlusOneTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/leetcode/arrays/PlusOneTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/leetcode/arrays/RemoveDuplicatesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/leetcode/arrays/RemoveDuplicatesTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/leetcode/arrays/RemoveElementTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/leetcode/arrays/RemoveElementTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/leetcode/arrays/SearchInsertPositionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/leetcode/arrays/SearchInsertPositionTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/leetcode/datastructures/binarytree/SameTreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/leetcode/datastructures/binarytree/SameTreeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/leetcode/datastructures/linkedlist/MergeTwoSortedListsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/leetcode/datastructures/linkedlist/MergeTwoSortedListsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/leetcode/slidingwindow/LongestSubstringWithoutRepeatingCharactersTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/leetcode/slidingwindow/LongestSubstringWithoutRepeatingCharactersTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/leetcode/string/ImplementstrStrTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/leetcode/string/ImplementstrStrTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/leetcode/string/LengthofLastWordTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/leetcode/string/LengthofLastWordTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/leetcode/string/LongestCommonPrefixTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/leetcode/string/LongestCommonPrefixTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/leetcode/string/ValidParenthesesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/leetcode/string/ValidParenthesesTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,13 +38,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "/Users/vivekanandan.sakthivelu/Workspace/github/leet-code"
-  }
-}]]></component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+  </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -59,14 +55,14 @@
       <recent name="com.leetcode.slidingwindow" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.leetcode.dp" />
       <recent name="com.leetcode.streak" />
       <recent name="com.leetcode.datastructures.binarytree" />
       <recent name="com.leetcode.datastructures.linkedlist" />
       <recent name="com.leetcode.math" />
-      <recent name="com.leetcode.string" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.RemoveDuplicatesFromSortedArrayTest.test">
+  <component name="RunManager" selected="JUnit.PascalTriangleTest.test">
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -80,33 +76,65 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InOrderTraversalTest.testCase1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CountingBitsTest.test (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leet-code" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.leetcode.datastructures.binarytree.*" />
+          <option name="PATTERN" value="com.leetcode.dp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.leetcode.datastructures.binarytree" />
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.datastructures.binarytree.InOrderTraversalTest" />
-      <option name="METHOD_NAME" value="testCase1" />
+      <option name="PACKAGE_NAME" value="com.leetcode.dp" />
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.dp.CountingBitsTest" />
+      <option name="METHOD_NAME" value="test(int[],int)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InOrderTraversalTest.testCase2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CountingBitsTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leet-code" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.leetcode.datastructures.binarytree.*" />
+          <option name="PATTERN" value="com.leetcode.dp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.leetcode.datastructures.binarytree" />
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.datastructures.binarytree.InOrderTraversalTest" />
-      <option name="METHOD_NAME" value="testCase2" />
+      <option name="PACKAGE_NAME" value="com.leetcode.dp" />
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.dp.CountingBitsTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MajorityElementTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="leet-code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.leetcode.streak.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.leetcode.streak" />
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.streak.MajorityElementTest" />
+      <option name="METHOD_NAME" value="test(int,int[])" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PascalTriangleTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="leet-code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.leetcode.dp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.leetcode.dp" />
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.dp.PascalTriangleTest" />
+      <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -128,45 +156,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RemoveDuplicatesfromSortedListTest.deleteDuplicates" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="leet-code" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.leetcode.datastructures.linkedlist.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.leetcode.datastructures.linkedlist" />
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.datastructures.linkedlist.RemoveDuplicatesfromSortedListTest" />
-      <option name="METHOD_NAME" value="deleteDuplicates" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RemoveDuplicatesfromSortedListTest.deleteDuplicatesCase2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="leet-code" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.leetcode.datastructures.linkedlist.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.leetcode.datastructures.linkedlist" />
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.datastructures.linkedlist.RemoveDuplicatesfromSortedListTest" />
-      <option name="METHOD_NAME" value="deleteDuplicatesCase2" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PascalTriangleTest.test" />
+        <item itemvalue="JUnit.CountingBitsTest.test (1)" />
+        <item itemvalue="JUnit.CountingBitsTest.test" />
+        <item itemvalue="JUnit.MajorityElementTest.test" />
         <item itemvalue="JUnit.RemoveDuplicatesFromSortedArrayTest.test" />
-        <item itemvalue="JUnit.InOrderTraversalTest.testCase2" />
-        <item itemvalue="JUnit.InOrderTraversalTest.testCase1" />
-        <item itemvalue="JUnit.RemoveDuplicatesfromSortedListTest.deleteDuplicatesCase2" />
-        <item itemvalue="JUnit.RemoveDuplicatesfromSortedListTest.deleteDuplicates" />
       </list>
     </recent_temporary>
   </component>
@@ -200,6 +196,11 @@
       <workItem from="1698913031450" duration="545000" />
       <workItem from="1699020462079" duration="192000" />
       <workItem from="1699020657332" duration="30000" />
+      <workItem from="1699168061551" duration="2374000" />
+      <workItem from="1699331641089" duration="2760000" />
+      <workItem from="1699339056343" duration="995000" />
+      <workItem from="1699933203174" duration="3539000" />
+      <workItem from="1700101874750" duration="435000" />
     </task>
     <task id="LOCAL-00001" summary="Update workspace.xml">
       <created>1655644680683</created>
@@ -285,7 +286,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657549475244</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="feat: RemoveDuplicatesfromSortedList">
+      <created>1699073963282</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1699073963282</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -301,6 +309,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Update workspace.xml" />
@@ -315,7 +324,8 @@
     <MESSAGE value="feat: AddBinary" />
     <MESSAGE value="feat: Implementation of Math.sqrt function" />
     <MESSAGE value="feat: RemoveDuplicatesfromSortedList" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: RemoveDuplicatesfromSortedList" />
+    <MESSAGE value="dp: CountingBits, PascalTriangle" />
+    <option name="LAST_COMMIT_MESSAGE" value="dp: CountingBits, PascalTriangle" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -394,6 +404,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/datastructures/binarytree/InOrderTraversal.java</url>
           <line>14</line>
           <option name="timeStamp" value="94" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/dp/PascalTriangle.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="95" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
