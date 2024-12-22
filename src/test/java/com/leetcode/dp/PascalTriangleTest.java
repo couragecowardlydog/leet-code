@@ -27,7 +27,7 @@ public class PascalTriangleTest {
 
     @Test
     public void test(){
-         Assertions.assertEquals(13, code.coefficient(13, 1));
+         Assertions.assertEquals(21, code.coefficient(30, 1));
     }
 
 }

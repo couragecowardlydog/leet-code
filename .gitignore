@@ -2,9 +2,7 @@ out/
 .idea/workspace.xml
 .idea/
 .idea/*
-.idea/workspace.xml
 *.iml
 *.xml
-.idea/workspace.xml
 target
-
+.idea

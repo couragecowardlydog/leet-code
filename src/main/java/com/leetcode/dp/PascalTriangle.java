@@ -6,7 +6,7 @@ import java.util.stream.LongStream;
 
 public class PascalTriangle {
 
-    public static long[] fact = new long[29];
+    public static long[] fact = new long[31];
 
     public List<List<Integer>> generate(int input) {
         List<List<Integer>> result = new ArrayList<>();
@@ -21,7 +21,9 @@ public class PascalTriangle {
     }
 
     public static int coefficient(int n, int k) {
-        return (int) (factorial(n) / (factorial(n - k) * factorial(k)));
+        long s = factorial(n) / factorial(n - k);
+        s = s / factorial(k);
+        return (int) s;
 
     }
 
