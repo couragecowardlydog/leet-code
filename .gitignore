@@ -3,6 +3,5 @@ out/
 .idea/
 .idea/*
 *.iml
-*.xml
 target
 .idea
