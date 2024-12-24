@@ -8,8 +8,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="369f1dc2-ac42-4d80-ab0c-491313756363" name="Changes" comment="feat: RemoveDuplicatesfromSortedList">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/stack/$2390.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/leetcode/stack/$2390Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/hashmap/$1657.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/leetcode/hashmap/$1657Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,6 +46,11 @@
     "JUnit.$1137Test.executor": "Debug",
     "JUnit.$1137Test.smoke (1).executor": "Run",
     "JUnit.$1137Test.smoke.executor": "Run",
+    "JUnit.$1657Test.smoke.executor": "Run",
+    "JUnit.$1657Test.test (1).executor": "Run",
+    "JUnit.$1657Test.test.[1] abbzzca, babzzcz, false.executor": "Run",
+    "JUnit.$1657Test.test.[3] cabbba, abbccc, true.executor": "Run",
+    "JUnit.$1657Test.test.executor": "Run",
     "JUnit.$2390Test.test.executor": "Run",
     "JUnit.com.leetcode.stack in leet-code.executor": "Debug",
     "Maven.leet-code [compile].executor": "Run",
@@ -55,7 +60,7 @@
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/vivekanandan.sakthivelu/Workspace/github/leet-code",
+    "last_opened_file_path": "/Users/v.sakthivel/Workspace/github/leet-code",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -72,14 +77,14 @@
       <recent name="com.leetcode.slidingwindow" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.leetcode.hashmap" />
       <recent name="com.leetcode.stack" />
       <recent name="com.leetcode.dp" />
       <recent name="com.leetcode.streak" />
       <recent name="com.leetcode.datastructures.binarytree" />
-      <recent name="com.leetcode.datastructures.linkedlist" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.$2390Test.test">
+  <component name="RunManager" selected="JUnit.$1657Test.test (1)">
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -93,97 +98,106 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="$1137Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="$1657Test.smoke" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leet-code" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.leetcode.dp.*" />
+          <option name="PATTERN" value="com.leetcode.hashmap.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.leetcode.dp" />
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.dp.$1137Test" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="$1137Test.smoke (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="leet-code" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.leetcode.dp.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.leetcode.dp" />
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.dp.$1137Test" />
-      <option name="METHOD_NAME" value="smoke(int,int)" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="$1137Test.smoke" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="leet-code" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.leetcode.dp.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.leetcode.dp" />
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.dp.$1137Test" />
+      <option name="PACKAGE_NAME" value="com.leetcode.hashmap" />
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.hashmap.$1657Test" />
       <option name="METHOD_NAME" value="smoke" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="$2390Test.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="$1657Test.test (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leet-code" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.leetcode.stack.*" />
+          <option name="PATTERN" value="com.leetcode.hashmap.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.leetcode.stack" />
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.stack.$2390Test" />
-      <option name="METHOD_NAME" value="test(java.lang.String,java.lang.String)" />
+      <option name="PACKAGE_NAME" value="com.leetcode.hashmap" />
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.hashmap.$1657Test" />
+      <option name="METHOD_NAME" value="test(java.lang.String,java.lang.String,boolean)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.leetcode.stack in leet-code" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="$1657Test.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leet-code" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.leetcode.stack.*" />
+          <option name="PATTERN" value="com.leetcode.hashmap.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.leetcode.stack" />
-      <option name="TEST_OBJECT" value="package" />
+      <option name="PACKAGE_NAME" value="com.leetcode.hashmap" />
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.hashmap.$1657Test" />
+      <option name="METHOD_NAME" value="test(java.lang.String,java.lang.String,java.lang.String)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="$1657Test.test.[1] abbzzca, babzzcz, false" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="leet-code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.leetcode.hashmap.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.leetcode.hashmap" />
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.hashmap.$1657Test" />
+      <option name="METHOD_NAME" value="test(java.lang.String,java.lang.String,boolean)" />
+      <option name="TEST_OBJECT" value="uniqueId" />
+      <uniqueIds>
+        <uniqueId value="[engine:junit-jupiter]/[class:com.leetcode.hashmap.$1657Test]/[test-template:test(java.lang.String, java.lang.String, boolean)]/[test-template-invocation:#1]" />
+      </uniqueIds>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="$1657Test.test.[3] cabbba, abbccc, true" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="leet-code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.leetcode.hashmap.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.leetcode.hashmap" />
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.hashmap.$1657Test" />
+      <option name="METHOD_NAME" value="test(java.lang.String,java.lang.String,boolean)" />
+      <option name="TEST_OBJECT" value="uniqueId" />
+      <uniqueIds>
+        <uniqueId value="[engine:junit-jupiter]/[class:com.leetcode.hashmap.$1657Test]/[test-template:test(java.lang.String, java.lang.String, boolean)]/[test-template-invocation:#3]" />
+      </uniqueIds>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.$2390Test.test" />
-      <item itemvalue="JUnit.com.leetcode.stack in leet-code" />
-      <item itemvalue="JUnit.$1137Test" />
-      <item itemvalue="JUnit.$1137Test.smoke" />
-      <item itemvalue="JUnit.$1137Test.smoke (1)" />
+      <item itemvalue="JUnit.$1657Test.test.[1] abbzzca, babzzcz, false" />
+      <item itemvalue="JUnit.$1657Test.test.[3] cabbba, abbccc, true" />
+      <item itemvalue="JUnit.$1657Test.smoke" />
+      <item itemvalue="JUnit.$1657Test.test" />
+      <item itemvalue="JUnit.$1657Test.test (1)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.$2390Test.test" />
-        <item itemvalue="JUnit.com.leetcode.stack in leet-code" />
-        <item itemvalue="JUnit.$1137Test" />
-        <item itemvalue="JUnit.$1137Test.smoke (1)" />
-        <item itemvalue="JUnit.$1137Test.smoke" />
+        <item itemvalue="JUnit.$1657Test.test (1)" />
+        <item itemvalue="JUnit.$1657Test.test.[3] cabbba, abbccc, true" />
+        <item itemvalue="JUnit.$1657Test.test.[1] abbzzca, babzzcz, false" />
+        <item itemvalue="JUnit.$1657Test.test" />
+        <item itemvalue="JUnit.$1657Test.smoke" />
       </list>
     </recent_temporary>
   </component>
@@ -232,6 +246,8 @@
       <workItem from="1700101874750" duration="435000" />
       <workItem from="1734866961494" duration="2267000" />
       <workItem from="1734938843182" duration="1819000" />
+      <workItem from="1735002520813" duration="4905000" />
+      <workItem from="1735024821105" duration="3748000" />
     </task>
     <task id="LOCAL-00001" summary="Update workspace.xml">
       <created>1655644680683</created>
@@ -479,6 +495,26 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/stack/$2390.java</url>
           <line>16</line>
           <option name="timeStamp" value="112" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/hashmap/$1657.java</url>
+          <line>63</line>
+          <option name="timeStamp" value="115" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/hashmap/$1657.java</url>
+          <line>75</line>
+          <option name="timeStamp" value="117" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/hashmap/$1657.java</url>
+          <line>79</line>
+          <option name="timeStamp" value="118" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/hashmap/$1657.java</url>
+          <line>57</line>
+          <option name="timeStamp" value="125" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
