@@ -10,7 +10,6 @@
     <list default="true" id="369f1dc2-ac42-4d80-ab0c-491313756363" name="Changes" comment="feat: RemoveDuplicatesfromSortedList">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/leetcode/hashmap/$1657.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/hashmap/$1657.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/leetcode/hashmap/$1657Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/leetcode/hashmap/$1657Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +48,7 @@
     "JUnit.$1657Test.smoke.executor": "Run",
     "JUnit.$1657Test.test (1).executor": "Run",
     "JUnit.$1657Test.test.[1] abbzzca, babzzcz, false.executor": "Run",
+    "JUnit.$1657Test.test.[2] abc, bac, true.executor": "Debug",
     "JUnit.$1657Test.test.[3] cabbba, abbccc, true.executor": "Run",
     "JUnit.$1657Test.test.[6] byiwbiibwhyyyibybmbyjiembbbybiyhjbfdmuiiyebbqhbijibbifybbybwmbbyddyyibdiupybbmiymfimvijwypiufywybhbhbjyyyymyyyifwbwuyiybbbbjyjwmduvibfzbmbfyfjpyywiiyuyjbbyhwywbwibbyybiybbwjbfjebymiffyifyijbfiyibibyfbymfkwfbjjhiqiipjmyembwbjijuiuydimwjyeidubdwmdjdijjidyidwbbuwfybmybwyhyfyydbbujzjjuwybibdhiuyfbyjhdbuybybbuyfdlubiimjibijywyiyypbiybbpwywbmvuwuiyiwfbiwdbjiiibiwdiiibiimyfwwbybmjwbfyibixdmuybbdbfyewbyifuubmybbyibibyjwbbibbbwufdbbydifybmbyibidiuybbiuiidjmyuddzvyybyuibjhbbysefjbjmiidbfidybfbyyiybdbubiyhbfdbbbbibww…, dikaziirmizqhrdkzikkiazirzviiiiaraikviiairimrdzihiziiizszizzizkiaimhaazdavmaaajlimrikzvhiiiikiizziikrijaiaimzaakizzmrakiziairzaraazraikraaidmihzjizsarzaizismirzsvaazkzsiiziivaaiikivsiiizmzaizrizzzzizikzmkiivijmiiiirvjiziisadrzizjssdiiijzrakqizizkvsazzzkaddmkivairuazsrqjrazzaijkrmzmdsivzddjziimikimmzsazhazjakzvzvzkriirzijmvavaiijurzafziavkrizizjkijzamadzivazzjaakjvavukkiiksizrvgvivivazkmaiijaivrdaskdmsriaizardaikasairakzvmkdsahdiziiiviiihzaavkzvazrizmsarzmikmjkaizifrrkkzmazdsmivvivaiviiizsacaamkzrsdzzaikmiz…, true.executor": "Run",
     "JUnit.$1657Test.test.executor": "Run",
@@ -131,7 +131,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="$1657Test.test.[1] abbzzca, babzzcz, false" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="$1657Test.test.[2] abc, bac, true" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leet-code" />
       <extension name="coverage">
         <pattern>
@@ -144,7 +144,7 @@
       <option name="METHOD_NAME" value="test(java.lang.String,java.lang.String,boolean)" />
       <option name="TEST_OBJECT" value="uniqueId" />
       <uniqueIds>
-        <uniqueId value="[engine:junit-jupiter]/[class:com.leetcode.hashmap.$1657Test]/[test-template:test(java.lang.String, java.lang.String, boolean)]/[test-template-invocation:#1]" />
+        <uniqueId value="[engine:junit-jupiter]/[class:com.leetcode.hashmap.$1657Test]/[test-template:test(java.lang.String, java.lang.String, boolean)]/[test-template-invocation:#2]" />
       </uniqueIds>
       <method v="2">
         <option name="Make" enabled="true" />
@@ -189,8 +189,8 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="JUnit.$1657Test.test.[2] abc, bac, true" />
       <item itemvalue="JUnit.$1657Test.test.[6] byiwbiibwhyyyibybmbyjiembbbybiyhjbfdmuiiyebbqhbijibbifybbybwmbbyddyyibdiupybbmiymfimvijwypiufywybhbhbjyyyymyyyifwbwuyiybbbbjyjwmduvibfzbmbfyfjpyywiiyuyjbbyhwywbwibbyybiybbwjbfjebymiffyifyijbfiyibibyfbymfkwfbjjhiqiipjmyembwbjijuiuydimwjyeidubdwmdjdijjidyidwbbuwfybmybwyhyfyydbbujzjjuwybibdhiuyfbyjhdbuybybbuyfdlubiimjibijywyiyypbiybbpwywbmvuwuiyiwfbiwdbjiiibiwdiiibiimyfwwbybmjwbfyibixdmuybbdbfyewbyifuubmybbyibibyjwbbibbbwufdbbydifybmbyibidiuybbiuiidjmyuddzvyybyuibjhbbysefjbjmiidbfidybfbyyiybdbubiyhbfdbbbbibww…, dikaziirmizqhrdkzikkiazirzviiiiaraikviiairimrdzihiziiizszizzizkiaimhaazdavmaaajlimrikzvhiiiikiizziikrijaiaimzaakizzmrakiziairzaraazraikraaidmihzjizsarzaizismirzsvaazkzsiiziivaaiikivsiiizmzaizrizzzzizikzmkiivijmiiiirvjiziisadrzizjssdiiijzrakqizizkvsazzzkaddmkivairuazsrqjrazzaijkrmzmdsivzddjziimikimmzsazhazjakzvzvzkriirzijmvavaiijurzafziavkrizizjkijzamadzivazzjaakjvavukkiiksizrvgvivivazkmaiijaivrdaskdmsriaizardaikasairakzvmkdsahdiziiiviiihzaavkzvazrizmsarzmikmjkaizifrrkkzmazdsmivvivaiviiizsacaamkzrsdzzaikmiz…, true" />
-      <item itemvalue="JUnit.$1657Test.test.[1] abbzzca, babzzcz, false" />
       <item itemvalue="JUnit.$1657Test.test.[3] cabbba, abbccc, true" />
       <item itemvalue="JUnit.$1657Test.smoke" />
       <item itemvalue="JUnit.$1657Test.test (1)" />
@@ -198,10 +198,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.$1657Test.test (1)" />
+        <item itemvalue="JUnit.$1657Test.test.[3] cabbba, abbccc, true" />
+        <item itemvalue="JUnit.$1657Test.test.[2] abc, bac, true" />
         <item itemvalue="JUnit.$1657Test.smoke" />
         <item itemvalue="JUnit.$1657Test.test.[6] byiwbiibwhyyyibybmbyjiembbbybiyhjbfdmuiiyebbqhbijibbifybbybwmbbyddyyibdiupybbmiymfimvijwypiufywybhbhbjyyyymyyyifwbwuyiybbbbjyjwmduvibfzbmbfyfjpyywiiyuyjbbyhwywbwibbyybiybbwjbfjebymiffyifyijbfiyibibyfbymfkwfbjjhiqiipjmyembwbjijuiuydimwjyeidubdwmdjdijjidyidwbbuwfybmybwyhyfyydbbujzjjuwybibdhiuyfbyjhdbuybybbuyfdlubiimjibijywyiyypbiybbpwywbmvuwuiyiwfbiwdbjiiibiwdiiibiimyfwwbybmjwbfyibixdmuybbdbfyewbyifuubmybbyibibyjwbbibbbwufdbbydifybmbyibidiuybbiuiidjmyuddzvyybyuibjhbbysefjbjmiidbfidybfbyyiybdbubiyhbfdbbbbibww…, dikaziirmizqhrdkzikkiazirzviiiiaraikviiairimrdzihiziiizszizzizkiaimhaazdavmaaajlimrikzvhiiiikiizziikrijaiaimzaakizzmrakiziairzaraazraikraaidmihzjizsarzaizismirzsvaazkzsiiziivaaiikivsiiizmzaizrizzzzizikzmkiivijmiiiirvjiziisadrzizjssdiiijzrakqizizkvsazzzkaddmkivairuazsrqjrazzaijkrmzmdsivzddjziimikimmzsazhazjakzvzvzkriirzijmvavaiijurzafziavkrizizjkijzamadzivazzjaakjvavukkiiksizrvgvivivazkmaiijaivrdaskdmsriaizardaikasairakzvmkdsahdiziiiviiihzaavkzvazrizmsarzmikmjkaizifrrkkzmazdsmivvivaiviiizsacaamkzrsdzzaikmiz…, true" />
-        <item itemvalue="JUnit.$1657Test.test.[3] cabbba, abbccc, true" />
-        <item itemvalue="JUnit.$1657Test.test.[1] abbzzca, babzzcz, false" />
       </list>
     </recent_temporary>
   </component>
@@ -502,78 +502,68 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/hashmap/$1657.java</url>
-          <line>64</line>
+          <line>86</line>
           <option name="timeStamp" value="126" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/hashmap/$1657.java</url>
-          <line>65</line>
+          <line>87</line>
           <option name="timeStamp" value="127" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/hashmap/$1657.java</url>
-          <line>28</line>
-          <option name="timeStamp" value="129" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/hashmap/$1657.java</url>
-          <line>13</line>
+          <line>23</line>
           <option name="timeStamp" value="131" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/hashmap/$1657.java</url>
-          <line>27</line>
-          <option name="timeStamp" value="134" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/hashmap/$1657.java</url>
-          <line>30</line>
+          <line>52</line>
           <option name="timeStamp" value="135" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/hashmap/$1657.java</url>
-          <line>38</line>
+          <line>60</line>
           <option name="timeStamp" value="136" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/hashmap/$1657.java</url>
-          <line>40</line>
+          <line>62</line>
           <option name="timeStamp" value="137" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/hashmap/$1657.java</url>
-          <line>47</line>
-          <option name="timeStamp" value="138" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/hashmap/$1657.java</url>
-          <line>54</line>
+          <line>76</line>
           <option name="timeStamp" value="139" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/hashmap/$1657.java</url>
-          <line>66</line>
+          <line>88</line>
           <option name="timeStamp" value="140" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/hashmap/$1657.java</url>
-          <line>70</line>
+          <line>92</line>
           <option name="timeStamp" value="141" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/hashmap/$1657.java</url>
-          <line>62</line>
+          <line>84</line>
           <option name="timeStamp" value="142" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/hashmap/$1657.java</url>
-          <line>61</line>
+          <line>83</line>
           <option name="timeStamp" value="143" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/hashmap/$1657.java</url>
-          <line>60</line>
+          <line>82</line>
           <option name="timeStamp" value="145" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/hashmap/$1657.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="151" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
