@@ -8,11 +8,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="369f1dc2-ac42-4d80-ab0c-491313756363" name="Changes" comment="feat: RemoveDuplicatesfromSortedList">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/bst/BinarySearchTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/heap/MinHeap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/heap/$215.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/leetcode/heap/$215Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/heap/SmallestInfiniteSet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/datastructure/heap/MinHeap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/heap/MinHeap.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,8 +20,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -44,6 +42,8 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.$1137.executor": "Run",
+    "Application.MinHeap.executor": "Run",
+    "Application.SmallestInfiniteSet.executor": "Run",
     "JUnit.$1137Test.doTest.executor": "Run",
     "JUnit.$1137Test.executor": "Debug",
     "JUnit.$1137Test.smoke (1).executor": "Run",
@@ -92,7 +92,7 @@
       <recent name="com.leetcode.datastructures.binarytree" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.$215Test">
+  <component name="RunManager" selected="Application.SmallestInfiniteSet">
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -106,18 +106,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="$1657Test.test (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MinHeap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.datastructure.heap.MinHeap" />
       <module name="leet-code" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.leetcode.hashmap.*" />
+          <option name="PATTERN" value="com.datastructure.heap.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.leetcode.hashmap" />
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.hashmap.$1657Test" />
-      <option name="METHOD_NAME" value="test(java.lang.String,java.lang.String,boolean)" />
-      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SmallestInfiniteSet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.heap.SmallestInfiniteSet" />
+      <module name="leet-code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.leetcode.heap.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -153,22 +163,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="$2352Test.smokeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="leet-code" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.leetcode.hashmap.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.leetcode.hashmap" />
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.hashmap.$2352Test" />
-      <option name="METHOD_NAME" value="smokeTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="$2352Test.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leet-code" />
       <extension name="coverage">
@@ -186,19 +180,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.MinHeap" />
+      <item itemvalue="Application.SmallestInfiniteSet" />
       <item itemvalue="JUnit.$215Test" />
       <item itemvalue="JUnit.$215Test.test" />
-      <item itemvalue="JUnit.$2352Test.smokeTest" />
       <item itemvalue="JUnit.$2352Test.test" />
-      <item itemvalue="JUnit.$1657Test.test (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SmallestInfiniteSet" />
+        <item itemvalue="Application.MinHeap" />
         <item itemvalue="JUnit.$215Test" />
         <item itemvalue="JUnit.$215Test.test" />
         <item itemvalue="JUnit.$2352Test.test" />
-        <item itemvalue="JUnit.$2352Test.smokeTest" />
-        <item itemvalue="JUnit.$1657Test.test (1)" />
       </list>
     </recent_temporary>
   </component>
