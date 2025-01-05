@@ -1,12 +1,12 @@
 package com.leetcode.heap;
 
-public class SmallestInfiniteSet {
+public class $2336 {
 
 
     int[] arr;
     int pointer;
 
-    public SmallestInfiniteSet() {
+    public $2336() {
         arr = new int[1000];
     }
 
@@ -32,7 +32,7 @@ public class SmallestInfiniteSet {
     }
 
     public static void main(String[] args) {
-        SmallestInfiniteSet s = new SmallestInfiniteSet();
+        $2336 s = new $2336();
         System.out.println(s.popSmallest());
         System.out.println(s.popSmallest());
         System.out.println(s.popSmallest());
