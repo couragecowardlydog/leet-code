@@ -8,9 +8,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="369f1dc2-ac42-4d80-ab0c-491313756363" name="Changes" comment="feat: RemoveDuplicatesfromSortedList">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/arrays/$334.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/leetcode/arrays/$334Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/leetcode/arrays/$334.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/arrays/$334.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/leetcode/arrays/$334Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/leetcode/arrays/$334Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,6 +81,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -263,6 +264,7 @@
       <workItem from="1736341630617" duration="955000" />
       <workItem from="1736381491931" duration="2776000" />
       <workItem from="1736399785625" duration="12236000" />
+      <workItem from="1736412783584" duration="8324000" />
     </task>
     <task id="LOCAL-00001" summary="Update workspace.xml">
       <created>1655644680683</created>

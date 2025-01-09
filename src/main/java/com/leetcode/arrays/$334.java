@@ -1,13 +1,11 @@
 package com.leetcode.arrays;
 
-import java.util.Map;
 
 public class $334 {
 
     public boolean increasingTriplet(int[] nums) {
 
-        if (nums.length < 3)
-            return false;
+        if (nums.length < 3) return false;
 
         int i = 0;
         int j = 1;
@@ -17,48 +15,45 @@ public class $334 {
             return true;
         }
 
-        k++;
+        while (k <= nums.length - 1 && j < nums.length - 2 && i < nums.length - 3) {
+            if (!(nums[j] < nums[k])) {
+                int temp = k;
+                int maxIndex = k;
+                while (temp < nums.length - 1) {
+                    temp++;
+                    maxIndex = nums[temp] > nums[maxIndex] ? temp : maxIndex;
+                }
+                k = nums[maxIndex] > nums[temp] ? maxIndex : temp;
 
-        while (k < nums.length && j < nums.length - 1 && i < nums.length - 2) {
+            }
+
+            if (!((nums[i] < nums[j]) && (nums[j] < nums[k]))) {
+                int temp = j;
+                if (k - j == 1) k++;
+                while (temp < k - 1) {
+                    if (nums[temp] < nums[k]) {
+                        break;
+                    }
+                    temp++;
+                }
+                j = temp;
+            }
+
+            if (!(nums[i] < nums[j])) {
+                if (j - i == 1) {
+                    j++;
+                }
+                int temp = i + 1;
+                while (temp < j - 1 && nums[temp] > nums[j]) {
+                    temp++;
+                }
+                i = temp;
+            }
 
             if (nums[i] < nums[j] && nums[j] < nums[k]) {
                 return true;
             }
-
-            if (nums[j] >= nums[k]) {
-                if (k - j > 1)
-                    j++;
-                else {
-                    int temp = k;
-                    while (k < nums.length && nums[temp] <= nums[k]) {
-                        temp++;
-                    }
-                    k = temp;
-                }
-
-                System.out.println("1 nd loop");
-//                continue;
-            } else if (nums[i] >= nums[j]) {
-                if (j - i > 1)
-                    i++;
-                else if (k - j > 1)
-                    j++;
-                else
-                    k++;
-                System.out.println("2 nd loop");
-//                continue;
-            }
-
-//            if(nums[i] > nums[k]){
-//                k++;
-//            }
-
-
-            System.out.println("i " + i + " j " + j + " k " + k);
-
         }
-
-
         return false;
     }
 
