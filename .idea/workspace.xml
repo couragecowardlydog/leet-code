@@ -8,8 +8,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="369f1dc2-ac42-4d80-ab0c-491313756363" name="Changes" comment="feat: RemoveDuplicatesfromSortedList">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/arrays/$238.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/leetcode/arrays/$238Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/arrays/$334.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/leetcode/arrays/$334Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -65,6 +65,8 @@
     "JUnit.$238Test.test.executor": "Run",
     "JUnit.$2390Test.test.executor": "Run",
     "JUnit.$2542Test.smoke.executor": "Run",
+    "JUnit.$334Test.executor": "Run",
+    "JUnit.$334Test.test.executor": "Run",
     "JUnit.com.leetcode.stack in leet-code.executor": "Debug",
     "Maven.leet-code [compile].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -97,7 +99,7 @@
       <recent name="com.leetcode.dp" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.$238Test.test">
+  <component name="RunManager" selected="JUnit.$334Test">
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -107,19 +109,6 @@
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="$1071" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.string.$1071" />
-      <module name="leet-code" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.leetcode.string.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -156,22 +145,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="$1431Test.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="leet-code" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.leetcode.arrays.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.leetcode.arrays" />
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.arrays.$1431Test" />
-      <option name="METHOD_NAME" value="test(int[],int,java.util.List)" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="$238Test.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leet-code" />
       <extension name="coverage">
@@ -188,20 +161,51 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="$334Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="leet-code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.leetcode.arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.leetcode.arrays" />
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.arrays.$334Test" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="$334Test.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="leet-code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.leetcode.arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.leetcode.arrays" />
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.arrays.$334Test" />
+      <option name="METHOD_NAME" value="test(int[],boolean)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.$1071" />
+      <item itemvalue="JUnit.$334Test" />
+      <item itemvalue="JUnit.$334Test.test" />
       <item itemvalue="JUnit.$238Test.test" />
-      <item itemvalue="JUnit.$1431Test.test" />
       <item itemvalue="JUnit.$1431Test.test (1)" />
       <item itemvalue="JUnit.$1431Test.test (2)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.$334Test" />
+        <item itemvalue="JUnit.$334Test.test" />
         <item itemvalue="JUnit.$238Test.test" />
         <item itemvalue="JUnit.$1431Test.test (2)" />
         <item itemvalue="JUnit.$1431Test.test (1)" />
-        <item itemvalue="JUnit.$1431Test.test" />
-        <item itemvalue="Application.$1071" />
       </list>
     </recent_temporary>
   </component>
@@ -257,7 +261,8 @@
       <workItem from="1735265658769" duration="2010000" />
       <workItem from="1736054557066" duration="8612000" />
       <workItem from="1736341630617" duration="955000" />
-      <workItem from="1736381491931" duration="2084000" />
+      <workItem from="1736381491931" duration="2776000" />
+      <workItem from="1736399785625" duration="12236000" />
     </task>
     <task id="LOCAL-00001" summary="Update workspace.xml">
       <created>1655644680683</created>
