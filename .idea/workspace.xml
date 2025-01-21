@@ -8,8 +8,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="369f1dc2-ac42-4d80-ab0c-491313756363" name="Changes" comment="feat: RemoveDuplicatesfromSortedList">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/twopointers/$382.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/leetcode/twopointers/$382Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/leetcode/twopointers/$283.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/twopointers/$283.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,6 +68,8 @@
     "JUnit.$283Test.executor": "Run",
     "JUnit.$334Test.executor": "Run",
     "JUnit.$334Test.test.executor": "Run",
+    "JUnit.$382Test.executor": "Run",
+    "JUnit.$382Test.smokeTest.executor": "Run",
     "JUnit.$443Test.executor": "Run",
     "JUnit.$443Test.test.executor": "Run",
     "JUnit.$443Test.testGetCharValue.executor": "Run",
@@ -103,7 +106,7 @@
       <recent name="com.leetcode.stack" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.$283Test">
+  <component name="RunManager" selected="JUnit.$382Test">
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -132,17 +135,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="$334Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="$382Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leet-code" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.leetcode.arrays.*" />
+          <option name="PATTERN" value="com.leetcode.twopointers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.leetcode.arrays" />
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.arrays.$334Test" />
+      <option name="PACKAGE_NAME" value="com.leetcode.twopointers" />
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.twopointers.$382Test" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="$382Test.smokeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="leet-code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.leetcode.twopointers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.leetcode.twopointers" />
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.twopointers.$382Test" />
+      <option name="METHOD_NAME" value="smokeTest(java.lang.String,java.lang.String,boolean)" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -158,22 +177,6 @@
       <option name="PACKAGE_NAME" value="com.leetcode.arrays" />
       <option name="MAIN_CLASS_NAME" value="com.leetcode.arrays.$443Test" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="$443Test.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="leet-code" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.leetcode.arrays.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.leetcode.arrays" />
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.arrays.$443Test" />
-      <option name="METHOD_NAME" value="test(char[],int)" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -196,18 +199,18 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.$283Test" />
+      <item itemvalue="JUnit.$382Test" />
+      <item itemvalue="JUnit.$382Test.smokeTest" />
       <item itemvalue="JUnit.$443Test" />
-      <item itemvalue="JUnit.$443Test.test" />
       <item itemvalue="JUnit.$443Test.testGetCharValue" />
-      <item itemvalue="JUnit.$334Test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.$382Test" />
+        <item itemvalue="JUnit.$382Test.smokeTest" />
         <item itemvalue="JUnit.$283Test" />
         <item itemvalue="JUnit.$443Test" />
         <item itemvalue="JUnit.$443Test.testGetCharValue" />
-        <item itemvalue="JUnit.$443Test.test" />
-        <item itemvalue="JUnit.$334Test" />
       </list>
     </recent_temporary>
   </component>
@@ -266,7 +269,7 @@
       <workItem from="1736381491931" duration="2776000" />
       <workItem from="1736399785625" duration="12236000" />
       <workItem from="1736412783584" duration="8324000" />
-      <workItem from="1736487497115" duration="11668000" />
+      <workItem from="1736487497115" duration="12021000" />
     </task>
     <task id="LOCAL-00001" summary="Update workspace.xml">
       <created>1655644680683</created>
