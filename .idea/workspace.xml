@@ -8,8 +8,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="369f1dc2-ac42-4d80-ab0c-491313756363" name="Changes" comment="feat: RemoveDuplicatesfromSortedList">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/twopointers/$382.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/leetcode/twopointers/$382Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/twopointers/$11.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/leetcode/twopointers/$11Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,6 +49,7 @@
     "JUnit.$1137Test.executor": "Debug",
     "JUnit.$1137Test.smoke (1).executor": "Run",
     "JUnit.$1137Test.smoke.executor": "Run",
+    "JUnit.$11Test.test.executor": "Run",
     "JUnit.$1431Test.test (1).executor": "Run",
     "JUnit.$1431Test.test.executor": "Run",
     "JUnit.$1657Test.smoke.executor": "Run",
@@ -106,7 +107,7 @@
       <recent name="com.leetcode.stack" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.$382Test">
+  <component name="RunManager" selected="JUnit.$11Test.test">
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -116,6 +117,22 @@
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="$11Test.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="leet-code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.leetcode.twopointers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.leetcode.twopointers" />
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.twopointers.$11Test" />
+      <option name="METHOD_NAME" value="test(int[],int)" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -181,36 +198,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="$443Test.testGetCharValue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="leet-code" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.leetcode.arrays.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.leetcode.arrays" />
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.arrays.$443Test" />
-      <option name="METHOD_NAME" value="testGetCharValue" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
+      <item itemvalue="JUnit.$11Test.test" />
       <item itemvalue="JUnit.$283Test" />
       <item itemvalue="JUnit.$382Test" />
       <item itemvalue="JUnit.$382Test.smokeTest" />
       <item itemvalue="JUnit.$443Test" />
-      <item itemvalue="JUnit.$443Test.testGetCharValue" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.$11Test.test" />
         <item itemvalue="JUnit.$382Test" />
         <item itemvalue="JUnit.$382Test.smokeTest" />
         <item itemvalue="JUnit.$283Test" />
         <item itemvalue="JUnit.$443Test" />
-        <item itemvalue="JUnit.$443Test.testGetCharValue" />
       </list>
     </recent_temporary>
   </component>
@@ -269,7 +270,7 @@
       <workItem from="1736381491931" duration="2776000" />
       <workItem from="1736399785625" duration="12236000" />
       <workItem from="1736412783584" duration="8324000" />
-      <workItem from="1736487497115" duration="12021000" />
+      <workItem from="1736487497115" duration="15203000" />
     </task>
     <task id="LOCAL-00001" summary="Update workspace.xml">
       <created>1655644680683</created>
