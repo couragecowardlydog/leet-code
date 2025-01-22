@@ -19,6 +19,7 @@ class $1456Test {
     public Stream<Arguments> parameters() {
         return Stream.of(
                 arguments("abciiidef", 3, 2),
+                arguments("abciiidef", 3, 2),
                 arguments("aeiou", 2, 2),
                 arguments("leetcode", 3, 2)
         );

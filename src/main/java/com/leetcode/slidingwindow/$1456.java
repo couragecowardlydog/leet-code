@@ -4,9 +4,9 @@ public class $1456 {
 
     public int maxVowels(String s, int k) {
         int result = 0;
+        int count = 0;
         int i;
         char[] chars = s.toCharArray();
-        int count = 0;
         for (i = 0; i < k; i++) {
             count += isVowel(chars[i]);
         }
