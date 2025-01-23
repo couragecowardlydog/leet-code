@@ -18,7 +18,9 @@ class $1004Test {
     public Stream<Arguments> inputs() {
         return Stream.of(
                 arguments(new int[]{1, 1, 1, 0, 0, 0, 1, 1, 1, 1, 0}, 2, 6),
-                arguments(new int[]{0, 0, 1, 1, 0, 0, 1, 1, 1, 0, 1, 1, 0, 0, 0, 1, 1, 1, 1}, 3, 10)
+                arguments(new int[]{1, 1, 1, 1, 1}, 0, 5),
+                arguments(new int[]{1, 1, 1, 0, 1, 1, 1}, 3, 7),
+                arguments(new int[]{1, 0, 1, 0, 1, 0, 1}, 1, 3)
         );
     }
 
