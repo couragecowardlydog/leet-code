@@ -11,8 +11,10 @@ public class $1456 {
             count += isVowel(chars[i]);
         }
         result = Math.max(result, count);
-        for (i = k; i < chars.length - k; i++) {
-            result = Math.max(result, count + isVowel(chars[i]) - isVowel(chars[i - k]));
+        System.out.println("REsoolt +" + result);
+        for (i = k; i < chars.length; i++) {
+            count = count + isVowel(chars[i]) - isVowel(chars[i - k]);
+            result = Math.max(result, count);
         }
         return result;
     }
