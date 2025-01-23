@@ -8,9 +8,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="369f1dc2-ac42-4d80-ab0c-491313756363" name="Changes" comment="feat: RemoveDuplicatesfromSortedList">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/slidingwindow/$1004.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/leetcode/slidingwindow/$1004Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/leetcode/slidingwindow/$1456.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/slidingwindow/$1456.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/leetcode/slidingwindow/$1456Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/leetcode/slidingwindow/$1456Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +45,7 @@
     "Application.$1137.executor": "Run",
     "Application.MinHeap.executor": "Run",
     "Application.SmallestInfiniteSet.executor": "Run",
+    "JUnit.$1004Test.test.executor": "Run",
     "JUnit.$1137Test.doTest.executor": "Run",
     "JUnit.$1137Test.executor": "Debug",
     "JUnit.$1137Test.smoke (1).executor": "Run",
@@ -102,14 +103,14 @@
       <recent name="com.leetcode.slidingwindow" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.leetcode.slidingwindow" />
       <recent name="com.leetcode.twopointers" />
       <recent name="com.leetcode.arrays" />
       <recent name="com.leetcode.heap" />
       <recent name="com.leetcode.hashmap" />
-      <recent name="com.leetcode.stack" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.$1456Test">
+  <component name="RunManager" selected="JUnit.$1004Test.test">
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -119,6 +120,22 @@
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="$1004Test.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="leet-code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.leetcode.slidingwindow.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.leetcode.slidingwindow" />
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.slidingwindow.$1004Test" />
+      <option name="METHOD_NAME" value="test(int[],int,int)" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -185,36 +202,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="$382Test.smokeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="leet-code" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.leetcode.twopointers.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.leetcode.twopointers" />
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.twopointers.$382Test" />
-      <option name="METHOD_NAME" value="smokeTest(java.lang.String,java.lang.String,boolean)" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
+      <item itemvalue="JUnit.$1004Test.test" />
       <item itemvalue="JUnit.$1456Test" />
       <item itemvalue="JUnit.$11Test.test" />
       <item itemvalue="JUnit.$1679Test.test" />
       <item itemvalue="JUnit.$382Test" />
-      <item itemvalue="JUnit.$382Test.smokeTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.$1004Test.test" />
         <item itemvalue="JUnit.$1456Test" />
         <item itemvalue="JUnit.$1679Test.test" />
         <item itemvalue="JUnit.$11Test.test" />
         <item itemvalue="JUnit.$382Test" />
-        <item itemvalue="JUnit.$382Test.smokeTest" />
       </list>
     </recent_temporary>
   </component>
@@ -276,6 +277,7 @@
       <workItem from="1736487497115" duration="19160000" />
       <workItem from="1737510998785" duration="5090000" />
       <workItem from="1737536678387" duration="946000" />
+      <workItem from="1737610821339" duration="2827000" />
     </task>
     <task id="LOCAL-00001" summary="Update workspace.xml">
       <created>1655644680683</created>
