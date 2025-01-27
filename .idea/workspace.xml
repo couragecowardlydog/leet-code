@@ -8,8 +8,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="369f1dc2-ac42-4d80-ab0c-491313756363" name="Changes" comment="feat: RemoveDuplicatesfromSortedList">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/prefixsum/$1732.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/leetcode/prefixsum/$1732Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/prefixsum/$724.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/leetcode/prefixsum/$724Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -81,6 +81,7 @@
     "JUnit.$443Test.executor": "Run",
     "JUnit.$443Test.test.executor": "Run",
     "JUnit.$443Test.testGetCharValue.executor": "Run",
+    "JUnit.$724Test.smokeTest.executor": "Run",
     "JUnit.com.leetcode.stack in leet-code.executor": "Debug",
     "Maven.leet-code [compile].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -114,7 +115,7 @@
       <recent name="com.leetcode.heap" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.$1732Test.test">
+  <component name="RunManager" selected="JUnit.$724Test.smokeTest">
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -139,22 +140,6 @@
       <option name="PACKAGE_NAME" value="com.leetcode.slidingwindow" />
       <option name="MAIN_CLASS_NAME" value="com.leetcode.slidingwindow.$1004Test" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="$1004Test.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="leet-code" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.leetcode.slidingwindow.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.leetcode.slidingwindow" />
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.slidingwindow.$1004Test" />
-      <option name="METHOD_NAME" value="test(int[],int,int)" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -206,20 +191,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="$724Test.smokeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="leet-code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.leetcode.prefixsum.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.leetcode.prefixsum" />
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.prefixsum.$724Test" />
+      <option name="METHOD_NAME" value="smokeTest(int[],int)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
+      <item itemvalue="JUnit.$724Test.smokeTest" />
       <item itemvalue="JUnit.$1732Test" />
       <item itemvalue="JUnit.$1732Test.test" />
       <item itemvalue="JUnit.$1004Test" />
-      <item itemvalue="JUnit.$1004Test.test" />
       <item itemvalue="JUnit.$1493Test.test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.$724Test.smokeTest" />
         <item itemvalue="JUnit.$1732Test.test" />
         <item itemvalue="JUnit.$1732Test" />
         <item itemvalue="JUnit.$1493Test.test" />
         <item itemvalue="JUnit.$1004Test" />
-        <item itemvalue="JUnit.$1004Test.test" />
       </list>
     </recent_temporary>
   </component>
@@ -286,6 +287,7 @@
       <workItem from="1737722295173" duration="4682000" />
       <workItem from="1737862124196" duration="2000" />
       <workItem from="1737883790548" duration="441000" />
+      <workItem from="1737942267254" duration="2133000" />
     </task>
     <task id="LOCAL-00001" summary="Update workspace.xml">
       <created>1655644680683</created>
