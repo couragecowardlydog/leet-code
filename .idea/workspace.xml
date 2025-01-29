@@ -8,8 +8,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="369f1dc2-ac42-4d80-ab0c-491313756363" name="Changes" comment="feat: RemoveDuplicatesfromSortedList">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/hashmap/$2215.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/leetcode/hashmap/$2215Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/hashmap/$1207.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/leetcode/hashmap/$1207Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,6 +52,7 @@
     "JUnit.$1137Test.smoke (1).executor": "Run",
     "JUnit.$1137Test.smoke.executor": "Run",
     "JUnit.$11Test.test.executor": "Run",
+    "JUnit.$1207Test.test.executor": "Run",
     "JUnit.$1431Test.test (1).executor": "Run",
     "JUnit.$1431Test.test.executor": "Run",
     "JUnit.$1456Test.executor": "Run",
@@ -116,7 +117,7 @@
       <recent name="com.leetcode.arrays" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.$2215Test.testSolution">
+  <component name="RunManager" selected="JUnit.$1207Test.test">
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -130,17 +131,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="$1493Test.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="$1207Test.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leet-code" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.leetcode.slidingwindow.*" />
+          <option name="PATTERN" value="com.leetcode.hashmap.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.leetcode.slidingwindow" />
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.slidingwindow.$1493Test" />
-      <option name="METHOD_NAME" value="test(int[],int)" />
+      <option name="PACKAGE_NAME" value="com.leetcode.hashmap" />
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.hashmap.$1207Test" />
+      <option name="METHOD_NAME" value="test(int[],boolean)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -210,19 +211,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="JUnit.$1207Test.test" />
       <item itemvalue="JUnit.$2215Test.testSolution" />
       <item itemvalue="JUnit.$724Test.smokeTest" />
       <item itemvalue="JUnit.$1732Test" />
       <item itemvalue="JUnit.$1732Test.test" />
-      <item itemvalue="JUnit.$1493Test.test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.$1207Test.test" />
         <item itemvalue="JUnit.$2215Test.testSolution" />
         <item itemvalue="JUnit.$724Test.smokeTest" />
         <item itemvalue="JUnit.$1732Test.test" />
         <item itemvalue="JUnit.$1732Test" />
-        <item itemvalue="JUnit.$1493Test.test" />
       </list>
     </recent_temporary>
   </component>
@@ -290,7 +291,8 @@
       <workItem from="1737862124196" duration="2000" />
       <workItem from="1737883790548" duration="441000" />
       <workItem from="1737942267254" duration="3334000" />
-      <workItem from="1738050664244" duration="1159000" />
+      <workItem from="1738050664244" duration="2615000" />
+      <workItem from="1738129765719" duration="860000" />
     </task>
     <task id="LOCAL-00001" summary="Update workspace.xml">
       <created>1655644680683</created>
