@@ -1,26 +1,25 @@
 package com.leetcode.hashmap;
 
-import java.util.Stack;
-
 public class $735 {
 
     public int[] asteroidCollision(int[] asteroids) {
-        Stack<Integer> stack = new Stack<>();
+        int[] stackArray = new int[asteroids.length];
+        int top = -1;
         for (int i = 0; i < asteroids.length; i++) {
-            if (asteroids[i] < 0 && !stack.isEmpty()) {
-                while (!stack.isEmpty()) {
-                    if (stack.peek() < 0 && asteroids[i] < 0) {
-                        stack.push(asteroids[i]);
+            if (asteroids[i] < 0 && top > -1) {
+                while (top >= 0) {
+                    if (stackArray[top] < 0 && asteroids[i] < 0) {
+                        stackArray[++top] = asteroids[i];
                         break;
                     }
-                    int y = stack.peek();
+                    int y = stackArray[top];
                     if ((asteroids[i] * -1) == y) {
-                        stack.pop();
+                        top--;
                         break;
                     } else if ((asteroids[i] * -1) > y) {
-                        stack.pop();
-                        if (stack.isEmpty()) {
-                            stack.push(asteroids[i]);
+                        top--;
+                        if (top == -1) {
+                            stackArray[++top] = asteroids[i];
                             break;
                         }
                     } else {
@@ -28,12 +27,13 @@ public class $735 {
                     }
                 }
             } else {
-                stack.push(asteroids[i]);
+                stackArray[++top] = asteroids[i];
             }
-            System.out.println(stack);
-
         }
-        int[] result = stack.stream().mapToInt(Integer::intValue).toArray();
+        int[] result = new int[top + 1];
+        for (int i = result.length - 1; i >= 0; i--) {
+            result[i] = stackArray[i];
+        }
         return result;
     }
 }
