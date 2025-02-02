@@ -17,6 +17,7 @@ class $394Test {
     public Stream<Arguments> inputs() {
         return Stream.of(
                 Arguments.arguments("3[a2[c]]", "accaccacc"),
+                Arguments.arguments("3[z]2[2[y]pq4[2[jk]e1[f]]]ef", "zzzyypqjkjkefjkjkefjkjkefjkjkefyypqjkjkefjkjkefjkjkefjkjkefef"),
                 Arguments.arguments("2[abc]3[cd]ef", "abcabccdcdcdef"),
                 Arguments.arguments("10[leetcode]", "leetcodeleetcodeleetcodeleetcodeleetcodeleetcodeleetcodeleetcodeleetcodeleetcode"),
                 Arguments.arguments("1[leetcode]", "leetcode"),
