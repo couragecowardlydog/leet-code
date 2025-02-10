@@ -4,20 +4,17 @@ public class $2095 {
 
     public ListNode deleteMiddle(ListNode head) {
         if (head.next == null) return null;
-        ListNode counter = head;
+        ListNode fast = head;
+        ListNode slow = head;
         int count = 0;
-        while (counter.next != null) {
-            counter = counter.next;
+        while (fast.next != null) {
+            fast = fast.next;
             count++;
+            if (count % 2 == 1) {
+                slow = slow.next;
+            }
         }
-        int middle = ((int) Math.ceil(count / 2.0));
-        int slow = 0;
-        ListNode slowHead = head;
-        while (slow < (middle - 1)) {
-            slowHead = slowHead.next;
-            slow++;
-        }
-        slowHead.next = slowHead.next.next;
+        slow.next = slow.next.next;
         return head;
     }
 
