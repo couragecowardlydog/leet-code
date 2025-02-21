@@ -14,9 +14,6 @@ public class $872 {
         traverse(root1, rleaf);
         index = 0;
         traverse(root2, lleaf);
-
-        System.out.println(Arrays.toString(rleaf));
-        System.out.println(Arrays.toString(lleaf));
         for (int i = 0; i < 128; i++) {
             if (rleaf[i] != lleaf[i]) {
                 result = false;
