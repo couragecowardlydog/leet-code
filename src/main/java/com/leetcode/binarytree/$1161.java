@@ -12,23 +12,26 @@ public class $1161 {
         int CURRENT_LEVEL = 1;
         int MAX = Integer.MIN_VALUE;
         while (!queue.isEmpty()) {
-            Queue<TreeNode> xqueue = new LinkedList<>();
+            TreeNode[] childNodes = new TreeNode[queue.size() * 2];
             int sum = 0;
+            int j = 0;
             while (!queue.isEmpty()) {
                 TreeNode node = queue.poll();
                 sum += node.val;
                 if (node.left != null) {
-                    xqueue.add(node.left);
+                    childNodes[j++] = node.left;
                 }
                 if (node.right != null) {
-                    xqueue.add(node.right);
+                    childNodes[j++] = node.right;
                 }
             }
             if (sum > MAX) {
                 MAX = sum;
                 MAX_LEVEL = CURRENT_LEVEL;
             }
-            queue.addAll(xqueue);
+            for (int i = 0; i < j; i++) {
+                queue.add(childNodes[i]);
+            }
             CURRENT_LEVEL++;
         }
         return MAX_LEVEL;
