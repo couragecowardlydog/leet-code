@@ -1,34 +1,29 @@
 package com.leetcode.binarytree;
 
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.Set;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.stream.Collectors;
 
 public class $437 {
 
-    int count = 0;
-    Set<String> set = new HashSet<>();
+
+    int COUNT = 0;
     public int pathSum(TreeNode root, int targetSum) {
-        doPathSum(root, targetSum, 0);
-        return count;
+        dfs(root, new ArrayList<>(), targetSum);
+        return COUNT;
     }
 
-    private void doPathSum(TreeNode root, int targetSum, int sumSoFar) {
-        if (root == null) {
-            return;
-        }
-        if(set.contains(root.val+""+targetSum+""+sumSoFar))
-            return;
-        set.add(root.val+""+targetSum+""+sumSoFar);
-        sumSoFar += root.val;
-        if (sumSoFar == targetSum) {
-            count++;
-        }
-        doPathSum(root.left, targetSum, sumSoFar);
-        doPathSum(root.right, targetSum, sumSoFar);
-        doPathSum(root.left, targetSum, 0);
-        doPathSum(root.right, targetSum, 0);
 
-
+    public void dfs(TreeNode root, ArrayList<Long> list, int targetSum) {
+        if (root == null)
+            return;
+        list = list.stream().map(y -> y + root.val).collect(Collectors.toCollection(ArrayList::new));
+        list.add((long) root.val);
+        COUNT += list.stream().filter(i -> i == targetSum).count();
+        dfs(root.left, list, targetSum);
+        dfs(root.right, list, targetSum);
     }
+
+
+
 }
