@@ -17,7 +17,9 @@ class $162Test {
 
     public Stream<Arguments> inputs() {
         return Stream.of(
-                Arguments.arguments(new int[]{1, 2, 3, 1}, 2)
+//                Arguments.arguments(new int[]{1, 2, 3, 1}, 2),
+                Arguments.arguments(new int[]{5, 4, 3, 2, 1}, 0),
+                Arguments.arguments(new int[]{1, 2, 3, 4, 5}, 4)
         );
     }
 
