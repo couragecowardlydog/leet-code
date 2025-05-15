@@ -8,12 +8,14 @@ public class $162 {
 
     public int binarySearch(int[] nums) {
         int left = 0;
-        int right = nums.length - 1;
+        int n = nums.length;
+        int right = n - 1;
 
         while (left < right) {
 
             int mid = left + (right - left) / 2;
-            if (nums[mid] > nums[mid + 1] && nums[mid] > nums[mid - 1]) {
+            System.out.println(mid);
+            if (nums[mid] > (n == mid ? -1 : nums[mid]) && nums[mid] > (mid == 0 ? -1 : nums[mid - 1])) {
                 return mid;
             }
 
