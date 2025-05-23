@@ -7,34 +7,24 @@ import java.util.List;
 
 public class $257 {
 
+    List<String> result = new ArrayList<>();
+
     public List<String> binaryTreePaths(TreeNode root) {
-        List<String> result = new ArrayList<>();
-
-        result.add(getPath(root, dfs(root.left, new ArrayList<>())));
-        result.add(getPath(root, dfs(root.right, new ArrayList<>())));
+        treeTraversal(root, new String());
         return result;
     }
 
-    public String getPath(TreeNode node, List<String> list) {
-        StringBuilder sb = new StringBuilder();
-        sb.append(node.val);
-        for (int i = 0; i < list.size(); i++) {
-            if (i < list.size() - 1) {
-                sb.append("->");
-            }
-            sb.append(list.get(i));
+    public void treeTraversal(TreeNode root, String value) {
+        if (root != null) {
+            value = value.concat(String.valueOf(root.val));
         }
-        return sb.toString();
-
+        if (root.left == null && root.right == null) {
+            result.add(value);
+        }
+        value = value.concat("->");
+        treeTraversal(root.left, value);
+        treeTraversal(root.right, value);
     }
 
-    public List<String> dfs(TreeNode root, List<String> result) {
-        if (root == null)
-            return result;
-        result.add(String.valueOf(root.val));
-        dfs(root.left, result);
-        dfs(root.right, result);
-        return result;
-    }
 
 }
