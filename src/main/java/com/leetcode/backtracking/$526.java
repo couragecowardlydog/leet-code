@@ -12,6 +12,7 @@ public class $526 {
 
     public int countArrangement(int n) {
         arr = new int[n];
+        visited = new int[n];
         for (int i = 0; i < n; i++) {
             arr[i] = i + 1;
         }
