@@ -4,41 +4,41 @@ import java.util.*;
 
 public class $22 {
 
-    int[] visited;
-    char[] arr;
     StringBuilder path;
-    Set<String> result;
-
+    List<String> result;
+    int MAX;
+    char[] chars = new char[]{'(', ')'};
+    int[] visited = new int[2];
     public List<String> generateParenthesis(int n) {
-        arr = new char[2 * n];
-        visited = new int[2 * n];
+        MAX = n;
         path = new StringBuilder();
-        result = new HashSet<>();
-        generate(arr);
+        result = new LinkedList<>();
         traverse();
-        return result.stream().toList();
+        return result;
     }
 
     public void traverse() {
-        if (path.length() == arr.length) {
+        if (path.length() == MAX * 2) {
             String s = path.toString();
             if (validateConstraint(s)) {
                 result.add(s);
             }
             return;
         }
-
-        for (int i = 0; i < arr.length; i++) {
-            if (visited[i] == 1)
+        for (int i = 0; i < chars.length; i++) {
+            if (!path.isEmpty() && path.charAt(0) == ')') {
                 continue;
-            visited[i] = 1;
-            path.append(arr[i]);
+            }
+            if (visited[i] == MAX)
+                continue;
+            visited[i]++;
+            path.append(chars[i]);
             traverse();
-            visited[i] = 0;
             path.deleteCharAt(path.length() - 1);
+            visited[i]--;
         }
-
     }
+
 
     private boolean validateConstraint(String s) {
         Stack<Character> stack = new Stack<>();
@@ -55,16 +55,6 @@ public class $22 {
     }
 
 
-    public void generate(char[] arr) {
-        int i;
-        for (i = 0; i < arr.length / 2; i++) {
-            arr[i] = '(';
-        }
-        for (; i < arr.length; i++) {
-            arr[i] = ')';
-        }
-        System.out.println(Arrays.toString(arr));
-    }
 
 
 }
