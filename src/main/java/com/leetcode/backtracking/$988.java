@@ -6,58 +6,34 @@ import java.util.Arrays;
 
 public class $988 {
 
+    public StringBuilder path;
+    public String result;
+
     public String smallestFromLeaf(TreeNode root) {
-        return new StringBuilder(dfs(root, "")).reverse().toString();
+        path = new StringBuilder();
+        result = null;
+        traverse(root);
+        return result;
     }
 
-    private String dfs(TreeNode root, String  strSofar) {
-        if (root == null) {
-            return strSofar;
+    public void traverse(TreeNode root) {
+        if (null == root)
+            return;
+        if (null == root.left && null == root.right) {
+            path.append('a' + root.val);
+            path.reverse();
+            String str = path.toString();
+            if (null == result || result.compareTo(str) > 0) {
+                result = str;
+            }
+            path.reverse();
+            path.deleteCharAt(path.length() - 1);
+            return;
         }
-        if (root.left == null && root.right == null) {
-            return strSofar.concat(getChar(root.val));
-        }
-        var left = dfs(root.left, strSofar.concat(getChar(root.val)));
-        var right = dfs(root.right, strSofar.concat(getChar(root.val)));
-        if(root.left == null)
-            return right;
-        if(root.right == null)
-            return left;
-        return doLexicographicComparison(left, right);
+        path.append((char) ('a' + root.val));
+        traverse(root.left);
+        traverse(root.right);
+        path.deleteCharAt(path.length() - 1);
     }
 
-    private String doLexicographicComparison(String left, String right) {
-        char[] leftChars = reverse(left.toCharArray());
-        char[] rightChars = reverse(right.toCharArray());
-        System.out.println("Comparing: " + Arrays.toString(leftChars) + " and " +  Arrays.toString(rightChars));
-
-        int minLength = Math.min(leftChars.length, rightChars.length);
-        for (int i = 0; i < minLength; i++) {
-            if (leftChars[i] == rightChars[i])
-                continue;
-            if(leftChars[i] > rightChars[i])
-                return right;
-            return left;
-        }
-        if(leftChars.length > rightChars.length)
-            return right;
-        return left;
-    }
-
-    public String getChar(int val) {
-        return String.valueOf((char) (val + 'a'));
-    }
-
-    public char[] reverse(char[] chars) {
-        int left = 0;
-        int right = chars.length - 1;
-        while (left < right) {
-            char temp = chars[left];
-            chars[left] = chars[right];
-            chars[right] = temp;
-            left++;
-            right--;
-        }
-        return chars;
-    }
 }
