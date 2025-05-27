@@ -4,13 +4,13 @@ public class $1947 {
 
 
     int[][] scores;
-    int[][] visited;
+    int[] visited;
     int MAX_SCORE = Integer.MIN_VALUE;
     int score = 0;
 
     public int maxCompatibilitySum(int[][] students, int[][] mentors) {
         scores = new int[students.length][students.length];
-        visited = new int[students.length][students.length];
+        visited = new int[students.length];
         genScore(students, mentors);
         traverse(0);
         return MAX_SCORE;
@@ -18,26 +18,21 @@ public class $1947 {
 
     public void traverse(int i) {
         if (i == scores.length) {
-//            System.out.println(score);
             MAX_SCORE = Math.max(MAX_SCORE, score);
             return;
         }
 
         for (int j = 0; j < scores[i].length; j++) {
-            if (visited[i][j] == 1)
+            if (visited[j] == 1)
                 continue;
             // Should a not take account of already paired student mentor
             // Example :
             // 1st student paired with 2nd mentor
             // don't have to visit 2 mentor paired with any student , should skip this pair
-            for (int k = 0; k < visited[i].length; k++) {
-                visited[k][j] = 1;
-            }
+            visited[j] = 1;
             score += scores[i][j];
             traverse(i + 1);
-            for (int k = 0; k < visited[i].length; k++) {
-                visited[k][j] = 0;
-            }
+            visited[j] = 0;
             score -= scores[i][j];
         }
     }
@@ -52,7 +47,6 @@ public class $1947 {
                         scores[i][j]++;
             }
         }
-//        System.out.println(Arrays.deepToString(scores));
     }
 
 
