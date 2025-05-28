@@ -1,7 +1,6 @@
 package com.leetcode.backtracking;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
 
@@ -16,42 +15,28 @@ public class $39 {
     List<int[]> visitedListed = new ArrayList<>();
 
     public List<List<Integer>> combinationSum(int[] candidates, int target) {
-        TARGET = target;
         ARR = candidates;
-        result.clear();
-        visited = new int[candidates.length];
-        traverse(0);
+        TARGET = target;
+        traverse(0, 0);
         return result;
     }
 
-    public void traverse(int sum) {
+    public void traverse(int index, int sum) {
 
-        if (TARGET == sum) {
-            boolean bool = true;
-            for (int[] arr : visitedListed) {
-                if (Arrays.equals(arr, visited)) {
-                    bool = false;
-                    break;
-                }
-            }
-
-            if (bool) {
-                result.add(List.copyOf(path));
-                visitedListed.add(Arrays.copyOfRange(visited, 0, visited.length));
-            }
+        if (sum == TARGET) {
+            result.add(new ArrayList<>(path));
             return;
         }
-
-        if (TARGET < sum)
+        if (index >= ARR.length)
             return;
-
-        for (int i = 0; i < ARR.length; i++) {
-            path.add(ARR[i]);
-            visited[i]++;
-            traverse(sum + ARR[i]);
-            visited[i]--;
-            path.remove(path.size() - 1);
-        }
+        if (sum > TARGET)
+            return;
+        System.out.println(sum);
+        path.add(ARR[index]);
+        traverse(index, sum + ARR[index]);
+        path.remove(path.size() - 1);
+        traverse(index + 1, sum);
 
     }
+
 }
