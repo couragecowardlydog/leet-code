@@ -11,8 +11,6 @@ public class $39 {
     List<List<Integer>> result = new ArrayList<>();
     List<Integer> path = new LinkedList<>();
     int[] ARR;
-    int[] visited;
-    List<int[]> visitedListed = new ArrayList<>();
 
     public List<List<Integer>> combinationSum(int[] candidates, int target) {
         ARR = candidates;
