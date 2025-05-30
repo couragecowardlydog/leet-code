@@ -2,51 +2,46 @@ package com.leetcode.backtracking;
 
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 public class $1986 {
 
-    int[] arr;
-    int[] visited;
-    int K;
-    int RESULT = Integer.MAX_VALUE;
-    List<Integer> path ;
-    public int minSessions(int[] tasks, int sessionTime) {
-        arr = tasks;
-        K = sessionTime;
-        RESULT = Integer.MAX_VALUE;
-        path    = new ArrayList<>();
-        visited = new int[arr.length];
-        traverse(0, 0, sessionTime, 0);
-        return RESULT;
-    }
+    public int minSessions(final int[] tasks, final int sessionTime) {
+        int totalSession = 0;
 
-    public void traverse(int count, int times, int timeRemaining, int session) {
-        if (count == arr.length) {
-            session++;
-            RESULT = Math.min(RESULT, session);
-            System.out.println("RESULT: " + RESULT);
-            return;
-        }
-        for (int i = 0; i < arr.length; i++) {
-            if (visited[i] == 1)
+        int j = tasks.length - 1;
+
+
+        Arrays.sort(tasks);
+        System.out.println(Arrays.toString(tasks));
+        while (j >= 0) {
+            System.out.println(tasks[j]);
+            if (tasks[j] == 0) {
+                j--;
                 continue;
-            visited[i] = 1;
-            if (arr[i] > timeRemaining || timeRemaining == 0) {
-                timeRemaining = K;
-                session++;
             }
 
-            if (timeRemaining == 0) {
-                session++;
+            int timeLeft = sessionTime - tasks[j];
+            int i = 0;
+            System.out.println("time Left " + timeLeft);
+            if (timeLeft > 0) {
+                while (i < j && tasks[i] <= timeLeft) {
+                    if (tasks[i] == timeLeft) {
+                        System.out.println("found pair " + tasks[i]);
+                        tasks[i] = 0;
+                        break;
+                    }
+                    i++;
+                }
             }
-            path.add(arr[i]);
-            System.out.println(path);
-            System.out.println("Val :" + arr[i] + " time Remaining " + timeRemaining + " " + " session " + session);
-            traverse(count + 1, times + 1, timeRemaining - arr[i], session);
-            visited[i] = 0;
-            path.remove(path.size() - 1);
+
+            totalSession++;
+            j--;
+
         }
+
+        return totalSession;
 
     }
 
