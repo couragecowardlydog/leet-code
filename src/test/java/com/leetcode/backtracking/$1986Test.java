@@ -18,8 +18,10 @@ class $1986Test {
     public Stream<Arguments> inputs() {
         return Stream.of(
                 Arguments.arguments(new int[]{2, 2, 2, 2, 2, 3}, 3, 6),
-                Arguments.arguments(new int[]{1,2,3,4,5}, 5, 5),
-                Arguments.arguments(new int[]{3,1,3,1,1}, 8, 2)
+                Arguments.arguments(new int[]{1, 2, 3, 4, 5}, 5, 3),
+                Arguments.arguments(new int[]{1, 2, 3, 4, 5}, 15, 1),
+                Arguments.arguments(new int[]{3, 2, 3, 7, 5, 2, 2, 10, 9, 1, 10}, 11, 5),
+                Arguments.arguments(new int[]{3, 1, 3, 1, 1}, 8, 2)
         );
     }
 
