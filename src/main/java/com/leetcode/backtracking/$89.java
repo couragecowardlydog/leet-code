@@ -35,7 +35,7 @@ public class $89 {
     }
 
     public static void main(String[] args) {
-        System.out.println(new $89().TLE(1));
+        System.out.println(new $89().grayCode(1));
     }
 
 
