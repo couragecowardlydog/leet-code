@@ -7,9 +7,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="369f1dc2-ac42-4d80-ab0c-491313756363" name="Changes" comment="feat: RemoveDuplicatesfromSortedList">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/linkedlist/$2095.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/linkedlist/ListNode.java" afterDir="false" />
+    <list default="true" id="369f1dc2-ac42-4d80-ab0c-491313756363" name="Changes" comment="feat:  Search in a Binary Search Tree">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/backtracking/$2002.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/hashtable/$2006.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -28,8 +28,28 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;couragecowardlydog&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/couragecowardlydog/leet-code.git&quot;,
+    &quot;accountId&quot;: &quot;bb562b19-9bb1-4609-86ee-c7d41e9b2fea&quot;
+  }
+}</component>
+  <component name="JavaAutoRunManager">
+    <enabled-run-configurations>
+      <run-configuration type="JUnit" name="Rerun Failed Tests" />
+    </enabled-run-configurations>
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="DEPENDENCY_CHECKER_PROBLEMS_TAB" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
@@ -39,76 +59,101 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.$1071.executor&quot;: &quot;Run&quot;,
-    &quot;Application.$1137.executor&quot;: &quot;Run&quot;,
-    &quot;Application.$2095.executor&quot;: &quot;Run&quot;,
-    &quot;Application.$933.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MinHeap.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SmallestInfiniteSet.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.$1004Test.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.$1004Test.test.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.$1137Test.doTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.$1137Test.executor&quot;: &quot;Debug&quot;,
-    &quot;JUnit.$1137Test.smoke (1).executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.$1137Test.smoke.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.$11Test.test.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.$1207Test.test.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.$1431Test.test (1).executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.$1431Test.test.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.$1456Test.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.$1493Test.test.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.$1657Test.smoke.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.$1657Test.test (1).executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.$1657Test.test.[1] abbzzca, babzzcz, false.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.$1657Test.test.[2] abc, bac, true.executor&quot;: &quot;Debug&quot;,
-    &quot;JUnit.$1657Test.test.[3] cabbba, abbccc, true.executor&quot;: &quot;Debug&quot;,
-    &quot;JUnit.$1657Test.test.[6] byiwbiibwhyyyibybmbyjiembbbybiyhjbfdmuiiyebbqhbijibbifybbybwmbbyddyyibdiupybbmiymfimvijwypiufywybhbhbjyyyymyyyifwbwuyiybbbbjyjwmduvibfzbmbfyfjpyywiiyuyjbbyhwywbwibbyybiybbwjbfjebymiffyifyijbfiyibibyfbymfkwfbjjhiqiipjmyembwbjijuiuydimwjyeidubdwmdjdijjidyidwbbuwfybmybwyhyfyydbbujzjjuwybibdhiuyfbyjhdbuybybbuyfdlubiimjibijywyiyypbiybbpwywbmvuwuiyiwfbiwdbjiiibiwdiiibiimyfwwbybmjwbfyibixdmuybbdbfyewbyifuubmybbyibibyjwbbibbbwufdbbydifybmbyibidiuybbiuiidjmyuddzvyybyuibjhbbysefjbjmiidbfidybfbyyiybdbubiyhbfdbbbbibww…, dikaziirmizqhrdkzikkiazirzviiiiaraikviiairimrdzihiziiizszizzizkiaimhaazdavmaaajlimrikzvhiiiikiizziikrijaiaimzaakizzmrakiziairzaraazraikraaidmihzjizsarzaizismirzsvaazkzsiiziivaaiikivsiiizmzaizrizzzzizikzmkiivijmiiiirvjiziisadrzizjssdiiijzrakqizizkvsazzzkaddmkivairuazsrqjrazzaijkrmzmdsivzddjziimikimmzsazhazjakzvzvzkriirzijmvavaiijurzafziavkrizizjkijzamadzivazzjaakjvavukkiiksizrvgvivivazkmaiijaivrdaskdmsriaizardaikasairakzvmkdsahdiziiiviiihzaavkzvazrizmsarzmikmjkaizifrrkkzmazdsmivvivaiviiizsacaamkzrsdzzaikmiz…, true.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.$1657Test.test.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.$1679Test.test.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.$1732Test.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.$1732Test.test.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.$215Test.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.$215Test.test.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.$2215Test.testSolution.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.$2352Test.smokeTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.$2352Test.test.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.$238Test.test.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.$2390Test.test.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.$2542Test.smoke.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.$283Test.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.$334Test.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.$334Test.test.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.$382Test.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.$382Test.smokeTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.$394Test.decodeString.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.$443Test.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.$443Test.test.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.$443Test.testGetCharValue.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.$649Test.decodeString.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.$649Test.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.$724Test.smokeTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.$735Test.test.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.com.leetcode.stack in leet-code.executor&quot;: &quot;Debug&quot;,
-    &quot;Maven.leet-code [compile].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.leet-code [test].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/v.sakthivel/Workspace/github/leet-code&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.$1071.executor": "Run",
+    "Application.$1137.executor": "Run",
+    "Application.$1913.executor": "Run",
+    "Application.$199.executor": "Run",
+    "Application.$2002.executor": "Run",
+    "Application.$2095.executor": "Run",
+    "Application.$401.executor": "Run",
+    "Application.$526.executor": "Run",
+    "Application.$933.executor": "Run",
+    "Application.MaxPairProductDifference.executor": "Run",
+    "Application.MinHeap.executor": "Run",
+    "Application.SmallestInfiniteSet.executor": "Run",
+    "JUnit.$1004Test.executor": "Run",
+    "JUnit.$1004Test.test.executor": "Run",
+    "JUnit.$1137Test.doTest.executor": "Run",
+    "JUnit.$1137Test.executor": "Debug",
+    "JUnit.$1137Test.smoke (1).executor": "Run",
+    "JUnit.$1137Test.smoke.executor": "Run",
+    "JUnit.$11Test.test.executor": "Run",
+    "JUnit.$1207Test.test.executor": "Run",
+    "JUnit.$1431Test.test (1).executor": "Run",
+    "JUnit.$1431Test.test.executor": "Run",
+    "JUnit.$1456Test.executor": "Run",
+    "JUnit.$1493Test.test.executor": "Run",
+    "JUnit.$162Test.executor": "Run",
+    "JUnit.$162Test.test.executor": "Run",
+    "JUnit.$1657Test.smoke.executor": "Run",
+    "JUnit.$1657Test.test (1).executor": "Run",
+    "JUnit.$1657Test.test.[1] abbzzca, babzzcz, false.executor": "Run",
+    "JUnit.$1657Test.test.[2] abc, bac, true.executor": "Debug",
+    "JUnit.$1657Test.test.[3] cabbba, abbccc, true.executor": "Debug",
+    "JUnit.$1657Test.test.[6] byiwbiibwhyyyibybmbyjiembbbybiyhjbfdmuiiyebbqhbijibbifybbybwmbbyddyyibdiupybbmiymfimvijwypiufywybhbhbjyyyymyyyifwbwuyiybbbbjyjwmduvibfzbmbfyfjpyywiiyuyjbbyhwywbwibbyybiybbwjbfjebymiffyifyijbfiyibibyfbymfkwfbjjhiqiipjmyembwbjijuiuydimwjyeidubdwmdjdijjidyidwbbuwfybmybwyhyfyydbbujzjjuwybibdhiuyfbyjhdbuybybbuyfdlubiimjibijywyiyypbiybbpwywbmvuwuiyiwfbiwdbjiiibiwdiiibiimyfwwbybmjwbfyibixdmuybbdbfyewbyifuubmybbyibibyjwbbibbbwufdbbydifybmbyibidiuybbiuiidjmyuddzvyybyuibjhbbysefjbjmiidbfidybfbyyiybdbubiyhbfdbbbbibww…, dikaziirmizqhrdkzikkiazirzviiiiaraikviiairimrdzihiziiizszizzizkiaimhaazdavmaaajlimrikzvhiiiikiizziikrijaiaimzaakizzmrakiziairzaraazraikraaidmihzjizsarzaizismirzsvaazkzsiiziivaaiikivsiiizmzaizrizzzzizikzmkiivijmiiiirvjiziisadrzizjssdiiijzrakqizizkvsazzzkaddmkivairuazsrqjrazzaijkrmzmdsivzddjziimikimmzsazhazjakzvzvzkriirzijmvavaiijurzafziavkrizizjkijzamadzivazzjaakjvavukkiiksizrvgvivivazkmaiijaivrdaskdmsriaizardaikasairakzvmkdsahdiziiiviiihzaavkzvazrizmsarzmikmjkaizifrrkkzmazdsmivvivaiviiizsacaamkzrsdzzaikmiz…, true.executor": "Run",
+    "JUnit.$1657Test.test.executor": "Run",
+    "JUnit.$1679Test.test.executor": "Run",
+    "JUnit.$1732Test.executor": "Run",
+    "JUnit.$1732Test.test.executor": "Run",
+    "JUnit.$1947Test.executor": "Run",
+    "JUnit.$1947Test.test.executor": "Run",
+    "JUnit.$1986Test.executor": "Run",
+    "JUnit.$1986Test.test.executor": "Run",
+    "JUnit.$215Test.executor": "Run",
+    "JUnit.$215Test.test.executor": "Run",
+    "JUnit.$2215Test.testSolution.executor": "Run",
+    "JUnit.$22Test.test.executor": "Run",
+    "JUnit.$2300Test.executor": "Run",
+    "JUnit.$2300Test.test.executor": "Run",
+    "JUnit.$2300Test.testbinarySearchIdentifyingLeftMostElement.executor": "Run",
+    "JUnit.$2352Test.smokeTest.executor": "Run",
+    "JUnit.$2352Test.test.executor": "Run",
+    "JUnit.$238Test.test.executor": "Run",
+    "JUnit.$2390Test.test.executor": "Run",
+    "JUnit.$2542Test.smoke.executor": "Run",
+    "JUnit.$283Test.executor": "Run",
+    "JUnit.$334Test.executor": "Run",
+    "JUnit.$334Test.test.executor": "Run",
+    "JUnit.$382Test.executor": "Run",
+    "JUnit.$382Test.smokeTest.executor": "Run",
+    "JUnit.$394Test.decodeString.executor": "Run",
+    "JUnit.$39Test.test.executor": "Run",
+    "JUnit.$40Test.executor": "Run",
+    "JUnit.$40Test.test.executor": "Run",
+    "JUnit.$443Test.executor": "Run",
+    "JUnit.$443Test.test.executor": "Run",
+    "JUnit.$443Test.testGetCharValue.executor": "Run",
+    "JUnit.$649Test.decodeString.executor": "Run",
+    "JUnit.$649Test.executor": "Run",
+    "JUnit.$724Test.smokeTest.executor": "Run",
+    "JUnit.$735Test.test.executor": "Run",
+    "JUnit.$875Test.executor": "Run",
+    "JUnit.$875Test.test (1).executor": "Run",
+    "JUnit.$875Test.test.executor": "Run",
+    "JUnit.com.leetcode.stack in leet-code.executor": "Debug",
+    "Maven.leet-code [compile].executor": "Run",
+    "Maven.leet-code [test].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/v.sakthivel/Workspace/github/leet-code",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -118,14 +163,14 @@
       <recent name="com.leetcode.slidingwindow" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.leetcode.backtracking" />
+      <recent name="com.leetcode.binarysearch" />
       <recent name="com.leetcode.queue" />
       <recent name="com.leetcode.stack" />
       <recent name="com.leetcode.hashmap" />
-      <recent name="com.leetcode.prefixsum" />
-      <recent name="com.leetcode.slidingwindow" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.$2095">
+  <component name="RunManager" selected="Application.$2002">
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -139,12 +184,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="$2095" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.linkedlist.$2095" />
+    <configuration name="$2002" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.backtracking.$2002" />
       <module name="leet-code" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.leetcode.linkedlist.*" />
+          <option name="PATTERN" value="com.leetcode.backtracking.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -152,88 +197,90 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="$933" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.queue.$933" />
+    <configuration name="$1986Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leet-code" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.leetcode.queue.*" />
+          <option name="PATTERN" value="com.leetcode.backtracking.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="$394Test.decodeString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="leet-code" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.leetcode.stack.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.leetcode.stack" />
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.stack.$394Test" />
-      <option name="METHOD_NAME" value="decodeString(java.lang.String,java.lang.String)" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="$649Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="leet-code" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.leetcode.queue.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.leetcode.queue" />
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.queue.$649Test" />
+      <option name="PACKAGE_NAME" value="com.leetcode.backtracking" />
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.backtracking.$1986Test" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="$649Test.decodeString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="$1986Test.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leet-code" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.leetcode.queue.*" />
+          <option name="PATTERN" value="com.leetcode.backtracking.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.leetcode.queue" />
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.queue.$649Test" />
-      <option name="METHOD_NAME" value="decodeString(java.lang.String,java.lang.String)" />
+      <option name="PACKAGE_NAME" value="com.leetcode.backtracking" />
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.backtracking.$1986Test" />
+      <option name="METHOD_NAME" value="test(int[],int,int)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="$40Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="leet-code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.leetcode.backtracking.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.leetcode.backtracking" />
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.backtracking.$40Test" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="$40Test.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="leet-code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.leetcode.backtracking.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.leetcode.backtracking" />
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.backtracking.$40Test" />
+      <option name="METHOD_NAME" value="test(int[],int)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.$2095" />
-      <item itemvalue="Application.$933" />
-      <item itemvalue="JUnit.$649Test" />
-      <item itemvalue="JUnit.$649Test.decodeString" />
-      <item itemvalue="JUnit.$394Test.decodeString" />
+      <item itemvalue="Application.$2002" />
+      <item itemvalue="JUnit.$1986Test" />
+      <item itemvalue="JUnit.$1986Test.test" />
+      <item itemvalue="JUnit.$40Test" />
+      <item itemvalue="JUnit.$40Test.test" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.$2095" />
-        <item itemvalue="JUnit.$649Test" />
-        <item itemvalue="JUnit.$649Test.decodeString" />
-        <item itemvalue="Application.$933" />
-        <item itemvalue="JUnit.$394Test.decodeString" />
+        <item itemvalue="Application.$2002" />
+        <item itemvalue="JUnit.$1986Test.test" />
+        <item itemvalue="JUnit.$1986Test" />
+        <item itemvalue="JUnit.$40Test" />
+        <item itemvalue="JUnit.$40Test.test" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-fdfe4dae3a2d-intellij.indexing.shared.core-IU-243.21565.193" />
-        <option value="bundled-js-predefined-d6986cc7102b-e768b9ed790e-JavaScript-IU-243.21565.193" />
+        <option value="bundled-jdk-9823dce3aa75-a94e463ab2e7-intellij.indexing.shared.core-IU-243.26053.27" />
+        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-IU-243.26053.27" />
       </set>
     </attachedChunks>
   </component>
@@ -301,7 +348,32 @@
       <workItem from="1738477659313" duration="1644000" />
       <workItem from="1738582525618" duration="2640000" />
       <workItem from="1738731164481" duration="2632000" />
-      <workItem from="1739146111096" duration="1446000" />
+      <workItem from="1739146111096" duration="8416000" />
+      <workItem from="1739323346965" duration="5628000" />
+      <workItem from="1740011711636" duration="8104000" />
+      <workItem from="1740444481832" duration="14000" />
+      <workItem from="1743648671714" duration="1397000" />
+      <workItem from="1743984416063" duration="22167000" />
+      <workItem from="1744597427995" duration="5392000" />
+      <workItem from="1744624439211" duration="813000" />
+      <workItem from="1744685097692" duration="8208000" />
+      <workItem from="1745483791018" duration="1814000" />
+      <workItem from="1745549634137" duration="708000" />
+      <workItem from="1746595922190" duration="40901000" />
+      <workItem from="1747043893541" duration="1243000" />
+      <workItem from="1747045279067" duration="2000" />
+      <workItem from="1747045283968" duration="13685000" />
+      <workItem from="1747296022196" duration="10153000" />
+      <workItem from="1747379838275" duration="8840000" />
+      <workItem from="1747620311782" duration="204000" />
+      <workItem from="1747957846223" duration="10531000" />
+      <workItem from="1748218695271" duration="3138000" />
+      <workItem from="1748313591243" duration="5133000" />
+      <workItem from="1748333784421" duration="4989000" />
+      <workItem from="1748398697491" duration="9358000" />
+      <workItem from="1748481282250" duration="1841000" />
+      <workItem from="1748574401559" duration="3620000" />
+      <workItem from="1748820878655" duration="8169000" />
     </task>
     <task id="LOCAL-00001" summary="Update workspace.xml">
       <created>1655644680683</created>
@@ -394,7 +466,15 @@
       <option name="project" value="LOCAL" />
       <updated>1699073963282</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="feat:  Search in a Binary Search Tree">
+      <option name="closed" value="true" />
+      <created>1743649596018</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1743649596018</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -425,7 +505,8 @@
     <MESSAGE value="feat: Implementation of Math.sqrt function" />
     <MESSAGE value="feat: RemoveDuplicatesfromSortedList" />
     <MESSAGE value="dp: CountingBits, PascalTriangle" />
-    <option name="LAST_COMMIT_MESSAGE" value="dp: CountingBits, PascalTriangle" />
+    <MESSAGE value="feat:  Search in a Binary Search Tree" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat:  Search in a Binary Search Tree" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -587,6 +668,10 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/leet_code$RemoveElementTest_test.ic" NAME="RemoveElementTest.test Coverage Results" MODIFIED="1656388169580" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
