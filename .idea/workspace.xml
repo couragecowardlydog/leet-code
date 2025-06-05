@@ -8,7 +8,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="369f1dc2-ac42-4d80-ab0c-491313756363" name="Changes" comment="feat:  Search in a Binary Search Tree">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/backtracking/$89.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/leetcode/backtracking/$95.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,11 +39,6 @@
     &quot;accountId&quot;: &quot;bb562b19-9bb1-4609-86ee-c7d41e9b2fea&quot;
   }
 }</component>
-  <component name="JavaAutoRunManager">
-    <enabled-run-configurations>
-      <run-configuration type="JUnit" name="Rerun Failed Tests" />
-    </enabled-run-configurations>
-  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -132,14 +127,16 @@
     "JUnit.$875Test.executor": "Run",
     "JUnit.$875Test.test (1).executor": "Run",
     "JUnit.$875Test.test.executor": "Run",
+    "JUnit.$93Test.test.executor": "Run",
     "JUnit.com.leetcode.stack in leet-code.executor": "Debug",
+    "JUnit.leetcode in leet-code.executor": "Run",
     "Maven.leet-code [compile].executor": "Run",
     "Maven.leet-code [test].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "git-widget-placeholder": "<unknown>",
+    "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/v.sakthivel/Workspace/github/leet-code",
     "node.js.detected.package.eslint": "true",
@@ -170,7 +167,7 @@
       <recent name="com.leetcode.hashmap" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.$89">
+  <component name="RunManager" selected="JUnit.leetcode in leet-code">
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -210,21 +207,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="$1986Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="leet-code" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.leetcode.backtracking.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.leetcode.backtracking" />
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.backtracking.$1986Test" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="$1986Test.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leet-code" />
       <extension name="coverage">
@@ -241,7 +223,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="$40Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="$93Test.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leet-code" />
       <extension name="coverage">
         <pattern>
@@ -250,8 +232,17 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.leetcode.backtracking" />
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.backtracking.$40Test" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.backtracking.$93Test" />
+      <option name="METHOD_NAME" value="test(java.lang.String)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="leetcode in leet-code" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="leet-code" />
+      <option name="TEST_OBJECT" value="directory" />
+      <dir value="$PROJECT_DIR$/src/test/java/com/leetcode" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -259,25 +250,25 @@
     <list>
       <item itemvalue="Application.$89" />
       <item itemvalue="Application.$2002" />
-      <item itemvalue="JUnit.$1986Test" />
+      <item itemvalue="JUnit.leetcode in leet-code" />
+      <item itemvalue="JUnit.$93Test.test" />
       <item itemvalue="JUnit.$1986Test.test" />
-      <item itemvalue="JUnit.$40Test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.leetcode in leet-code" />
+        <item itemvalue="JUnit.$93Test.test" />
         <item itemvalue="Application.$89" />
         <item itemvalue="Application.$2002" />
         <item itemvalue="JUnit.$1986Test.test" />
-        <item itemvalue="JUnit.$1986Test" />
-        <item itemvalue="JUnit.$40Test" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-fdfe4dae3a2d-intellij.indexing.shared.core-IU-243.21565.193" />
-        <option value="bundled-js-predefined-d6986cc7102b-e768b9ed790e-JavaScript-IU-243.21565.193" />
+        <option value="bundled-jdk-9823dce3aa75-a94e463ab2e7-intellij.indexing.shared.core-IU-243.26053.27" />
+        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-IU-243.26053.27" />
       </set>
     </attachedChunks>
   </component>
@@ -371,8 +362,11 @@
       <workItem from="1748481282250" duration="1841000" />
       <workItem from="1748574401559" duration="3620000" />
       <workItem from="1748820878655" duration="8169000" />
-      <workItem from="1748911476357" duration="2242000" />
-      <workItem from="1748940008285" duration="3008000" />
+      <workItem from="1748911476357" duration="3442000" />
+      <workItem from="1748995667277" duration="2691000" />
+      <workItem from="1748998369662" duration="4766000" />
+      <workItem from="1749078711759" duration="78000" />
+      <workItem from="1749078833946" duration="1946000" />
     </task>
     <task id="LOCAL-00001" summary="Update workspace.xml">
       <created>1655644680683</created>
