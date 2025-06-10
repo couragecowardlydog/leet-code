@@ -1,48 +1,55 @@
 package com.leetcode.dp;
 
-import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
 public class $22 {
 
-    Set<String> keys = new HashSet<>();
-    List<String> result = new ArrayList<>();
 
+    public static HashMap<Integer, List<String>> dp = new HashMap();
     public List<String> generateParenthesis(int n) {
-        traverse(new StringBuilder("()"), 1, n);
-        System.out.println(keys);
-        return result;
+        return getList(n);
     }
 
-    private void traverse(StringBuilder path, int currentLevel, int n) {
-        if (keys.contains(path.toString())) {
-            System.out.println("key contains in hash" + path);
-            return;
+    public List<String> getList(int n) {
+        if (n == 1 || n == 0)
+            return List.of("()");
+        if (dp.containsKey(n))
+            return dp.get(n);
+        Set<String> result = new HashSet<>();
+        List<String> previous = getList(n - 1);
+        for (String s : previous) {
+            result.add("(".concat(s).concat(")"));
+            result.add(s.concat("()"));
+            result.add("()".concat(s));
         }
-        keys.add(path.toString());
-        if (n == currentLevel) {
-            result.add(path.toString());
-            return;
+
+        int x = 1;
+        int y = n - x;
+        while (y >= x) {
+            System.out.println("For:" + n + ",x:" + x + ", y:" + y);
+            System.out.println("---");
+            List<String> xList = getList(x);
+            List<String> yList = getList(y);
+            for (String s : xList) {
+                for (String s2 : yList) {
+                    result.add(s.concat(s2));
+                    result.add(s2.concat(s));
+                }
+            }
+            x++;
+            y--;
         }
-        traverse(path.insert(0, '(').insert(path.length(), ')'), currentLevel + 1, n);
-        path.deleteCharAt(0).deleteCharAt(path.length() - 1);
-        traverse(path.append("()"), currentLevel + 1, n);
-        path.delete(path.length() - 2, path.length());
-        traverse(path.insert(0, "()"), currentLevel + 1, n);
-        path.delete(0, 2);
-        if (n % 2 == 0) {
-            System.out.println("here" + n);
-            path.append(path);
-            path.delete(0, path.length() / 2);
-        }
+        dp.put(n, result.stream().toList());
+        return dp.get(n);
     }
 
-    // (())(())
+
     public static void main(String[] args) {
         $22 obj = new $22();
-        System.out.println(obj.generateParenthesis(4));
+        System.out.println(obj.generateParenthesis(6));
     }
 
 
