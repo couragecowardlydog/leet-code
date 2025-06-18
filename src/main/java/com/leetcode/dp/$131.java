@@ -6,14 +6,26 @@ import java.util.List;
 public class $131 {
 
     String[][] dp;
+    boolean[][] isPalindrome;
     List<List<String>> result = new ArrayList<>();
     public List<List<String>> partition(String s) {
-        dp = new String[s.length()][s.length()];
-        for (int i = 0; i < s.length(); i++) {
-            for (int j = i; j < s.length(); j++) {
-                dp[i][j] = getString(s, i, j);
+        int n = s.length();
+        dp = new String[n][n];
+        isPalindrome = new boolean[n][n];
+        for (int i = n - 1; i >= 0; i--) {
+            for (int j = i; j < n; j++) {
+                isPalindrome[i][j] = (s.charAt(i) == s.charAt(j)) &&
+                        (j - i <= 2 || isPalindrome[i + 1][j - 1]);
             }
         }
+
+        for (int i = 0; i < s.length(); i++) {
+            for (int j = i; j < s.length(); j++) {
+                if (isPalindrome[i][j])
+                    dp[i][j] = s.substring(i, j + 1);
+            }
+        }
+
         traverse(0, 0, new ArrayList<>());
         return result;
     }
@@ -50,6 +62,10 @@ public class $131 {
 
     public static void main(String[] args) {
         $131 test = new $131();
-        System.out.println(test.partition("bb"));
+        System.out.println(test.partition("malayalam"));
+        // bb
+        // 2
+        // 0, 2
+        // 1, 2
     }
 }
