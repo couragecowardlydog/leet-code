@@ -1,5 +1,6 @@
 package com.leetcode.dp;
 
+import com.datastructure.bst.BinarySearchTree;
 import com.leetcode.binarytree.TreeNode;
 
 import java.util.HashMap;
@@ -11,12 +12,14 @@ import java.util.stream.Collectors;
 public class $95 {
 
     int[] visited;
-    Map<String, TreeNode> result = new HashMap<>();
+    static Map<String, TreeNode> result = new HashMap<>();
 
     public List<TreeNode> generateTrees(int n) {
         traverse(0, n, new LinkedList<>());
         return result.values().stream().collect(Collectors.toUnmodifiableList());
     }
+
+
 
 
     public void traverse(int i, int n, List<Integer> treeList) {
@@ -59,6 +62,7 @@ public class $95 {
 
     public void insert(TreeNode root, int val) {
         if (root == null) return;
+
         if (val < root.val) {
             if (root.left == null)
                 root.left = new TreeNode(val);
@@ -70,6 +74,12 @@ public class $95 {
             else
                 insert(root.right, val);
         }
+    }
+
+    public static void main(String[] args) {
+        $95 obj = new $95();
+        obj.traverse(0, 3, new LinkedList<>());
+        System.out.println("Result:" + result);
     }
 
 }
