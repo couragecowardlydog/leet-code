@@ -4,37 +4,25 @@ import java.util.*;
 
 public class $139 {
 
-    private StringBuilder path = new StringBuilder();
-    private Set dp;
+    private Map<String, Boolean> dp;
 
     public boolean wordBreak(String s, List<String> wordDict) {
-        dp = new HashSet();
-        return traverse(s, wordDict);
+        dp = new HashMap<>();
+        return traverse(s, new HashSet<>(wordDict));
     }
 
-    private boolean traverse(String s, List<String> wordDict) {
-        for (int i = 0; i < wordDict.size(); i++) {
-            String word = wordDict.get(i);
-            s.substring(i);
-            path.append(word);
-            String pathWord = path.toString();
-            if (s.equals(pathWord)) {
+    private boolean traverse(String sb, Set<String> wordDict) {
+        if (sb.isEmpty()) return true;
+        if (dp.containsKey(sb)) return dp.get(sb);
+
+        for (int i = 1; i <= sb.length(); i++) {
+            String word = sb.substring(0, i);
+            if (wordDict.contains(word) && traverse(sb.substring(i), wordDict)) {
+                dp.put(word, true);
                 return true;
             }
-
-            if (dp.contains(pathWord)) {
-                dp.clear();
-                continue;
-            }
-
-            if (s.startsWith(pathWord)) {
-                if (traverse(s, wordDict))
-                    return true;
-                else
-                    dp.add(pathWord);
-            }
-            path.delete(path.length() - word.length(), path.length());
         }
+        dp.put(sb, false);
         return false;
 
     }
