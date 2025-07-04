@@ -1,9 +1,7 @@
 package com.leetcode.dp;
 
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Set;
+import java.util.*;
+import java.util.concurrent.ConcurrentHashMap;
 
 public class $22 {
 
@@ -12,8 +10,9 @@ public class $22 {
     public List<String> generateParenthesis(int n) {
         return getList(n);
     }
-
+    public Map<String, String> map = new ConcurrentHashMap<>();
     public List<String> getList(int n) {
+
         if (n == 1 || n == 0)
             return List.of("()");
         if (dp.containsKey(n))
