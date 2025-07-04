@@ -1,7 +1,7 @@
 package com.lld.lru;
 
-import com.lld.lru.workingdir.Cache;
-import com.lld.lru.workingdir.CoupledCache;
+import com.lld.lru.coupledds.Cache;
+import com.lld.lru.coupledds.CoupledCache;
 
 public class Driver {
 

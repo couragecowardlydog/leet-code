@@ -1,4 +1,4 @@
-package com.lld.lru.workingdir;
+package com.lld.lru.coupledds;
 
 
 public class LRUPolicy extends CacheEvictionPolicy {

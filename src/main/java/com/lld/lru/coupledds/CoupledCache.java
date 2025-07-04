@@ -1,4 +1,4 @@
-package com.lld.lru.workingdir;
+package com.lld.lru.coupledds;
 
 import java.util.HashMap;
 
